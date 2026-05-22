@@ -15,14 +15,14 @@ export default function Footer() {
   const t = translations[lang].footer;
 
   return (
-    <footer className="relative px-6 md:px-40" style={{ paddingTop: 64, paddingBottom: 64 }}>
+    <footer className="relative px-6 lg:px-40" style={{ paddingTop: 64, paddingBottom: 64 }}>
       <div className="absolute inset-0 bg-brand pointer-events-none" />
       <div className="absolute inset-0 pointer-events-none shadow-[inset_0px_10px_30px_0px_rgba(0,0,0,0.25)]" />
 
       <div className="relative" style={{ maxWidth: 1120, marginLeft: "auto", marginRight: "auto" }}>
-        <div className="flex flex-col md:flex-row md:items-start gap-[32px] md:gap-0">
+        <div className="flex flex-col lg:flex-row lg:items-start gap-[32px] lg:gap-0">
           {/* Left — logo */}
-          <div className="flex md:flex-1 flex-col justify-between min-w-0 md:h-[138px]">
+          <div className="flex lg:flex-1 flex-col justify-between min-w-0 lg:h-[138px]">
             <div className="flex items-center" style={{ gap: 26.96 }}>
               <div className="relative flex-shrink-0" style={{ width: 40.46, height: 64 }}>
                 <img
@@ -35,12 +35,12 @@ export default function Footer() {
                 className="font-heading font-bold text-text-on-dark whitespace-nowrap leading-none"
                 style={{ fontSize: 30.33 }}
               >
-                <p style={{ lineHeight: "30.33px", marginBottom: 0 }}>Pine </p>
+                <p style={{ lineHeight: "30.33px", marginBottom: 0 }}>Pine College</p>
                 <p style={{ lineHeight: "30.33px" }}>Counseling</p>
               </div>
             </div>
             <p
-              className="hidden md:block font-body text-text-on-dark whitespace-nowrap"
+              className="hidden lg:block font-body text-text-on-dark whitespace-nowrap"
               style={{ fontSize: 12, lineHeight: "normal" }}
             >
               {t.copyright}
@@ -48,7 +48,7 @@ export default function Footer() {
           </div>
 
           {/* Right — Pages + Contact columns; gap 8px on mobile, 32px on desktop */}
-          <div className="flex flex-shrink-0 gap-[14px] md:gap-[24px]">
+          <div className="flex flex-shrink-0 gap-[14px] lg:gap-[24px]">
             {/* Pages */}
             <div className="flex flex-col items-start" style={{ gap: 16 }}>
               <p
@@ -143,7 +143,7 @@ export default function Footer() {
         </div>
 
         <p
-          className="md:hidden font-body text-text-on-dark mt-[40px]"
+          className="lg:hidden font-body text-text-on-dark mt-[40px]"
           style={{ fontSize: 12, lineHeight: "normal" }}
         >
           {t.copyright}

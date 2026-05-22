@@ -88,7 +88,7 @@ export default function ContactPage() {
 
       {/* ── Form + Reach Out ── */}
       <section
-        className="relative overflow-hidden px-6 md:px-40"
+        className="relative overflow-hidden px-6 lg:px-40"
         style={{ paddingTop: 60, paddingBottom: 80 }}
       >
         <div className="absolute inset-0 bg-bg-primary" />
@@ -102,7 +102,7 @@ export default function ContactPage() {
         />
 
         <div
-          className="relative z-10 flex flex-col md:flex-row md:items-start gap-[40px] md:gap-[100px]"
+          className="relative z-10 flex flex-col lg:flex-row lg:items-start gap-[40px] lg:gap-[100px]"
           style={{ maxWidth: 1120, marginLeft: "auto", marginRight: "auto" }}
         >
           {/* Left: form */}
@@ -111,10 +111,10 @@ export default function ContactPage() {
             whileInView={{ opacity: 1, x: 0, scale: 1 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
-            className="flex flex-col gap-[24px] w-full md:w-[580px] md:flex-shrink-0"
+            className="flex flex-col gap-[24px] w-full lg:w-[580px] lg:flex-shrink-0"
           >
             <p
-              className="font-heading font-bold text-text-primary text-[20px] md:text-[24px]"
+              className="font-heading font-bold text-text-primary text-[20px] lg:text-[24px]"
               style={{ lineHeight: "32px" }}
             >
               {tp.form.heading}
@@ -214,22 +214,22 @@ export default function ContactPage() {
             whileInView={{ opacity: 1, x: 0, scale: 1 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.75, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-            className="flex flex-col gap-[24px] w-full md:flex-1"
+            className="flex flex-col gap-[24px] w-full lg:flex-1"
           >
             <p
-              className="font-heading font-bold text-text-primary text-[20px] md:text-[24px]"
+              className="font-heading font-bold text-text-primary text-[20px] lg:text-[24px]"
               style={{ lineHeight: "32px" }}
             >
               {tp.reach.heading}
             </p>
             <p
-              className="font-body text-text-primary text-[14px] md:text-[16px]"
+              className="font-body text-text-primary text-[14px] lg:text-[16px]"
               style={{ lineHeight: "26px" }}
             >
               {tp.reach.body}
             </p>
 
-            <div className="flex flex-col gap-[20px] md:gap-[24px]">
+            <div className="flex flex-col gap-[20px] lg:gap-[24px]">
               {contactMethods.map((method, i) => (
                 <motion.a
                   key={method.label}

@@ -114,7 +114,7 @@ img {
   padding-top: calc(72px + env(safe-area-inset-top, 0px) + 16px);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
   .page-hero-pt {
     padding-top: 92px; /* 72px nav + 20px breathing room, no safe area on desktop */
   }

@@ -38,7 +38,7 @@ export default function AboutPage() {
 
       {/* ── Mission ── */}
       <section
-        className="relative overflow-hidden px-6 md:px-40"
+        className="relative overflow-hidden px-6 lg:px-40"
         style={{ paddingTop: 60, paddingBottom: 60 }}
       >
         <div className="absolute inset-0 bg-bg-primary" />
@@ -52,7 +52,7 @@ export default function AboutPage() {
         />
 
         <div
-          className="relative z-10 flex flex-col gap-[32px] md:gap-[40px]"
+          className="relative z-10 flex flex-col gap-[32px] lg:gap-[40px]"
           style={{ maxWidth: 1120, marginLeft: "auto", marginRight: "auto" }}
         >
           <motion.div
@@ -60,15 +60,15 @@ export default function AboutPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="flex flex-col gap-[12px] md:gap-[16px]"
+            className="flex flex-col gap-[12px] lg:gap-[16px]"
           >
             <p
-              className="font-body font-bold text-brand uppercase text-[12px] md:text-[16px]"
+              className="font-body font-bold text-brand uppercase text-[12px] lg:text-[16px]"
               style={{ letterSpacing: "2.5px" }}
             >
               {t.mission.eyebrow}
             </p>
-            <p className="font-heading font-bold text-text-primary text-[28px] leading-[34px] md:text-[42px] md:leading-[50px]">
+            <p className="font-heading font-bold text-text-primary text-[28px] leading-[34px] lg:text-[42px] lg:leading-[50px]">
               {t.mission.heading}
             </p>
           </motion.div>
@@ -78,17 +78,17 @@ export default function AboutPage() {
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: true, margin: "-40px" }}
             transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-            className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col items-center gap-[24px] md:gap-[40px] text-center w-full"
+            className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col items-center gap-[24px] lg:gap-[40px] text-center w-full"
             style={{ padding: "32px 24px" }}
           >
             <p
-              className="font-heading font-bold text-text-primary w-full text-[16px] md:text-[20px]"
+              className="font-heading font-bold text-text-primary w-full text-[16px] lg:text-[20px]"
               style={{ lineHeight: "1.7" }}
             >
               {t.mission.quote}
             </p>
             <p
-              className="font-body text-text-primary w-full text-[14px] md:text-[16px]"
+              className="font-body text-text-primary w-full text-[14px] lg:text-[16px]"
               style={{ lineHeight: "26px" }}
             >
               {t.mission.body}
@@ -102,7 +102,7 @@ export default function AboutPage() {
 
       {/* ── Team ── */}
       <section
-        className="relative overflow-hidden px-6 md:px-40"
+        className="relative overflow-hidden px-6 lg:px-40"
         style={{ paddingTop: 60, paddingBottom: 60 }}
       >
         <div className="absolute inset-0 bg-bg-primary" />
@@ -116,7 +116,7 @@ export default function AboutPage() {
         />
 
         <div
-          className="relative z-10 flex flex-col gap-[32px] md:gap-[40px]"
+          className="relative z-10 flex flex-col gap-[32px] lg:gap-[40px]"
           style={{ maxWidth: 1120, marginLeft: "auto", marginRight: "auto" }}
         >
           <motion.div
@@ -124,15 +124,15 @@ export default function AboutPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="flex flex-col gap-[12px] md:gap-[16px]"
+            className="flex flex-col gap-[12px] lg:gap-[16px]"
           >
             <p
-              className="font-body font-bold text-brand uppercase text-[12px] md:text-[16px]"
+              className="font-body font-bold text-brand uppercase text-[12px] lg:text-[16px]"
               style={{ letterSpacing: "2.5px" }}
             >
               {t.team.eyebrow}
             </p>
-            <p className="font-heading font-bold text-text-primary text-[28px] leading-[34px] md:text-[42px] md:leading-[50px]">
+            <p className="font-heading font-bold text-text-primary text-[28px] leading-[34px] lg:text-[42px] lg:leading-[50px]">
               {t.team.heading}
             </p>
           </motion.div>
@@ -142,10 +142,10 @@ export default function AboutPage() {
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: true, margin: "-40px" }}
             transition={{ duration: 0.7, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-            className="drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col md:flex-row items-stretch w-full"
+            className="drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col lg:flex-row items-stretch w-full"
           >
             {/* Photo */}
-            <div className="bg-bg-secondary border-[1.5px] border-border-strong rounded-t-md md:rounded-tl-md md:rounded-tr-none md:rounded-bl-md md:rounded-br-none overflow-hidden flex-shrink-0 relative h-[220px] md:h-auto md:w-[306px]">
+            <div className="bg-bg-secondary border-[1.5px] border-border-strong rounded-t-md lg:rounded-tl-md lg:rounded-tr-none lg:rounded-bl-md lg:rounded-br-none overflow-hidden flex-shrink-0 relative h-[220px] lg:h-auto lg:w-[306px]">
               <picture>
                 <source media="(min-width: 768px)" srcSet={TEAM_IMAGE} />
                 <img
@@ -161,7 +161,7 @@ export default function AboutPage() {
 
             {/* Bio */}
             <div
-              className="relative bg-bg-secondary border-[1.5px] border-t-0 md:border-t-[1.5px] md:border-l-0 border-border-strong rounded-b-md md:rounded-b-none md:rounded-tr-md md:rounded-br-md flex flex-col justify-center gap-[12px] flex-1"
+              className="relative bg-bg-secondary border-[1.5px] border-t-0 lg:border-t-[1.5px] lg:border-l-0 border-border-strong rounded-b-md lg:rounded-b-none lg:rounded-tr-md lg:rounded-br-md flex flex-col justify-center gap-[12px] flex-1"
               style={{ padding: 20 }}
             >
               <div className="flex flex-col gap-[4px]">
@@ -173,7 +173,7 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <p className="font-body text-text-primary text-[14px] md:text-[16px]" style={{ lineHeight: "26px" }}>
+              <p className="font-body text-text-primary text-[14px] lg:text-[16px]" style={{ lineHeight: "26px" }}>
                 {t.team.bio1}
               </p>
 
@@ -181,7 +181,7 @@ export default function AboutPage() {
               <AnimatePresence initial={false}>
                 {bioExpanded && (
                   <motion.div
-                    className="md:hidden flex flex-col gap-[12px]"
+                    className="lg:hidden flex flex-col gap-[12px]"
                     initial="closed"
                     animate="open"
                     exit="closed"
@@ -211,7 +211,7 @@ export default function AboutPage() {
                 )}
               </AnimatePresence>
               {/* Desktop: always visible */}
-              <div className="hidden md:flex flex-col gap-[12px]">
+              <div className="hidden lg:flex flex-col gap-[12px]">
                 <p className="font-body text-text-primary text-[16px]" style={{ lineHeight: "26px" }}>{t.team.bio2}</p>
                 <p className="font-body text-text-primary text-[16px]" style={{ lineHeight: "26px" }}>{t.team.bio3}</p>
               </div>
@@ -220,7 +220,7 @@ export default function AboutPage() {
               <AnimatePresence initial={false}>
                 {bioExpanded && (
                   <motion.button
-                    className="md:hidden font-body font-bold text-brand underline text-[14px] self-start"
+                    className="lg:hidden font-body font-bold text-brand underline text-[14px] self-start"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
@@ -236,7 +236,7 @@ export default function AboutPage() {
               <AnimatePresence initial={false}>
                 {!bioExpanded && (
                   <motion.div
-                    className="md:hidden absolute left-0 right-0 bottom-0 flex items-end justify-center pointer-events-none"
+                    className="lg:hidden absolute left-0 right-0 bottom-0 flex items-end justify-center pointer-events-none"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
@@ -267,7 +267,7 @@ export default function AboutPage() {
 
       {/* ── FAQ ── */}
       <section
-        className="relative overflow-hidden px-6 md:px-40"
+        className="relative overflow-hidden px-6 lg:px-40"
         style={{ paddingTop: 60, paddingBottom: 60 }}
       >
         <div className="absolute inset-0 bg-bg-primary" />
@@ -281,7 +281,7 @@ export default function AboutPage() {
         />
 
         <div
-          className="relative z-10 flex flex-col gap-[32px] md:gap-[40px]"
+          className="relative z-10 flex flex-col gap-[32px] lg:gap-[40px]"
           style={{ maxWidth: 1120, marginLeft: "auto", marginRight: "auto" }}
         >
           <motion.div
@@ -289,20 +289,20 @@ export default function AboutPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="flex flex-col gap-[12px] md:gap-[16px]"
+            className="flex flex-col gap-[12px] lg:gap-[16px]"
           >
             <p
-              className="font-body font-bold text-brand uppercase text-[12px] md:text-[16px]"
+              className="font-body font-bold text-brand uppercase text-[12px] lg:text-[16px]"
               style={{ letterSpacing: "2.5px" }}
             >
               {t.faq.eyebrow}
             </p>
-            <p className="font-heading font-bold text-text-primary text-[28px] leading-[34px] md:text-[42px] md:leading-[50px]">
+            <p className="font-heading font-bold text-text-primary text-[28px] leading-[34px] lg:text-[42px] lg:leading-[50px]">
               {t.faq.heading}
             </p>
           </motion.div>
 
-          <div className="flex flex-col gap-[16px] md:gap-[24px]">
+          <div className="flex flex-col gap-[16px] lg:gap-[24px]">
             {t.faq.items.map((faq, i) => (
               <motion.div
                 key={i}
@@ -310,17 +310,17 @@ export default function AboutPage() {
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 viewport={{ once: true, margin: "-30px" }}
                 transition={{ duration: 0.55, delay: i * 0.1, ease: [0.22, 1, 0.36, 1] }}
-                className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_10px_3px_rgba(0,0,0,0.25)] flex flex-col md:flex-row md:items-center overflow-hidden"
+                className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_10px_3px_rgba(0,0,0,0.25)] flex flex-col lg:flex-row lg:items-center overflow-hidden"
                 style={{ padding: "16px 20px", gap: 12 }}
               >
                 <p
-                  className="font-heading font-bold text-text-primary text-[15px] md:text-[16px] md:flex-shrink-0 md:w-[440px]"
+                  className="font-heading font-bold text-text-primary text-[15px] lg:text-[16px] lg:flex-shrink-0 lg:w-[440px]"
                   style={{ lineHeight: "24px" }}
                 >
                   {faq.q}
                 </p>
                 <p
-                  className="font-body text-text-primary text-[14px] md:text-[16px] md:flex-1"
+                  className="font-body text-text-primary text-[14px] lg:text-[16px] lg:flex-1"
                   style={{ lineHeight: "26px" }}
                 >
                   {faq.a}

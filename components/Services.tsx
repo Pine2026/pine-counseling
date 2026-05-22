@@ -28,7 +28,7 @@ export default function Services() {
 
   return (
     <section
-      className="relative overflow-hidden px-6 md:px-40"
+      className="relative overflow-hidden px-6 lg:px-40"
       style={{ paddingTop: 60, paddingBottom: 60 }}
     >
       <div className="absolute inset-0 bg-bg-primary" />
@@ -47,26 +47,26 @@ export default function Services() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="flex flex-col gap-[10px] md:gap-[16px] mb-[24px] md:mb-[40px]"
+          className="flex flex-col gap-[10px] lg:gap-[16px] mb-[24px] lg:mb-[40px]"
         >
           <p className="font-body font-bold text-brand uppercase" style={{ fontSize: 12, letterSpacing: "2.5px" }}>
             {t.eyebrow}
           </p>
-          <h2 className="font-heading font-bold text-text-primary text-[34px] leading-[40px] md:text-[46px] md:leading-[54px]" style={{ maxWidth: 576 }}>
+          <h2 className="font-heading font-bold text-text-primary text-[34px] leading-[40px] lg:text-[46px] lg:leading-[54px]" style={{ maxWidth: 576 }}>
             {t.heading1}
             <br />
             {t.heading2}
           </h2>
         </motion.div>
 
-        <div className="flex flex-col md:flex-row gap-[16px] md:gap-[24px]">
+        <div className="flex flex-col lg:flex-row gap-[16px] lg:gap-[24px]">
           {/* Box 1 */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
-            className="relative overflow-hidden rounded-md border-[1.5px] border-border-strong flex flex-col justify-end shadow-[4px_8px_10px_3px_rgba(0,0,0,0.25)] w-full aspect-square md:w-[548px] md:h-[548px] md:aspect-auto flex-shrink-0 p-16 md:p-40"
+            className="relative overflow-hidden rounded-md border-[1.5px] border-border-strong flex flex-col justify-end shadow-[4px_8px_10px_3px_rgba(0,0,0,0.25)] w-full aspect-square lg:w-[548px] lg:h-[548px] lg:aspect-auto flex-shrink-0 p-16 lg:p-40"
           >
             <div
               className="absolute inset-0 rounded-md"
@@ -78,11 +78,11 @@ export default function Services() {
             />
             <div className="absolute inset-0 rounded-md bg-gradient-to-b from-[rgba(109,176,138,0)] to-[#2e4a3a] from-[44.7%]" />
 
-            <div className="relative z-10 flex flex-col gap-[12px] md:gap-[16px]">
-              <p className="font-heading font-bold text-text-on-dark text-[18px] md:text-[28px]" style={{ lineHeight: "1.3" }}>
+            <div className="relative z-10 flex flex-col gap-[12px] lg:gap-[16px]">
+              <p className="font-heading font-bold text-text-on-dark text-[18px] lg:text-[28px]" style={{ lineHeight: "1.3" }}>
                 {t.card1.title}
               </p>
-              <p className="font-body text-text-on-dark text-[14px] md:text-[16px]" style={{ lineHeight: "normal" }}>
+              <p className="font-body text-text-on-dark text-[14px] lg:text-[16px]" style={{ lineHeight: "normal" }}>
                 {t.card1.body.split("\n").map((line, i, arr) => (
                   <span key={i}>
                     {line}
@@ -100,25 +100,25 @@ export default function Services() {
           </motion.div>
 
           {/* Right — two stacked cards */}
-          <div className="flex-1 flex flex-col gap-[16px] md:gap-[24px]">
+          <div className="flex-1 flex flex-col gap-[16px] lg:gap-[24px]">
             {/* Box 2 */}
             <motion.div
               initial={{ opacity: 0, x: 40 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.7, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
-              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col justify-between md:h-[262px] p-20 md:p-40"
+              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col justify-between lg:h-[262px] p-20 lg:p-40"
               style={{ gap: 12 }}
             >
-              <div className="flex flex-col gap-[12px] md:gap-[16px]">
-                <p className="font-heading font-bold text-text-primary text-[18px] md:text-[28px]" style={{ lineHeight: "1.2" }}>
+              <div className="flex flex-col gap-[12px] lg:gap-[16px]">
+                <p className="font-heading font-bold text-text-primary text-[18px] lg:text-[28px]" style={{ lineHeight: "1.2" }}>
                   {t.card2.title}
                 </p>
-                <p className="font-body text-text-primary text-[14px] md:text-[16px]" style={{ lineHeight: "normal" }}>
+                <p className="font-body text-text-primary text-[14px] lg:text-[16px]" style={{ lineHeight: "normal" }}>
                   {t.card2.body}
                 </p>
               </div>
-              <Link href="/services" className="font-heading font-bold text-text-primary underline text-[14px] md:text-[18px]">
+              <Link href="/services" className="font-heading font-bold text-text-primary underline text-[14px] lg:text-[18px]">
                 {t.card2.link}
               </Link>
             </motion.div>
@@ -129,18 +129,18 @@ export default function Services() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.7, delay: 0.24, ease: [0.22, 1, 0.36, 1] }}
-              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col justify-between md:h-[262px] p-20 md:p-40"
+              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col justify-between lg:h-[262px] p-20 lg:p-40"
               style={{ gap: 12 }}
             >
-              <div className="flex flex-col gap-[12px] md:gap-[16px]">
-                <p className="font-heading font-bold text-text-primary text-[18px] md:text-[28px]" style={{ lineHeight: "1.2" }}>
+              <div className="flex flex-col gap-[12px] lg:gap-[16px]">
+                <p className="font-heading font-bold text-text-primary text-[18px] lg:text-[28px]" style={{ lineHeight: "1.2" }}>
                   {t.card3.title}
                 </p>
-                <p className="font-body text-text-primary text-[14px] md:text-[16px]" style={{ lineHeight: "normal" }}>
+                <p className="font-body text-text-primary text-[14px] lg:text-[16px]" style={{ lineHeight: "normal" }}>
                   {t.card3.body}
                 </p>
               </div>
-              <Link href="/services" className="font-heading font-bold text-text-primary underline text-[14px] md:text-[18px]">
+              <Link href="/services" className="font-heading font-bold text-text-primary underline text-[14px] lg:text-[18px]">
                 {t.card3.link}
               </Link>
             </motion.div>

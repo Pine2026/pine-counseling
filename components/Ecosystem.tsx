@@ -29,7 +29,7 @@ export default function Ecosystem() {
 
   return (
     <section
-      className="relative overflow-hidden px-6 md:px-40"
+      className="relative overflow-hidden px-6 lg:px-40"
       style={{ paddingTop: 60, paddingBottom: 60 }}
     >
       <div className="absolute inset-0 bg-bg-primary pointer-events-none" />
@@ -43,18 +43,18 @@ export default function Ecosystem() {
       />
 
       <div className="relative z-10" style={{ maxWidth: 1120, marginLeft: "auto", marginRight: "auto" }}>
-        <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-[24px] md:mb-[40px] gap-[10px] md:gap-0">
+        <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-[24px] lg:mb-[40px] gap-[10px] lg:gap-0">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="flex flex-col gap-[10px] md:gap-[12px]"
+            className="flex flex-col gap-[10px] lg:gap-[12px]"
           >
-            <p className="font-body font-bold text-brand uppercase tracking-[2.5px] text-[12px] md:text-[14px]">
+            <p className="font-body font-bold text-brand uppercase tracking-[2.5px] text-[12px] lg:text-[14px]">
               {t.eyebrow}
             </p>
-            <div className="font-heading font-bold text-text-primary text-[34px] leading-[40px] md:text-[46px] md:leading-[54px]">
+            <div className="font-heading font-bold text-text-primary text-[34px] leading-[40px] lg:text-[46px] lg:leading-[54px]">
               <p>{t.heading1}</p>
               <p>{t.heading2}</p>
             </div>
@@ -64,7 +64,7 @@ export default function Ecosystem() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-            className="hidden md:flex items-end justify-end self-stretch"
+            className="hidden lg:flex items-end justify-end self-stretch"
             style={{ paddingTop: 52, width: 499 }}
           >
             <p className="font-body font-bold text-text-primary/80" style={{ fontSize: 20, lineHeight: "26px" }}>
@@ -73,12 +73,12 @@ export default function Ecosystem() {
           </motion.div>
         </div>
 
-        <p className="md:hidden font-body font-medium text-text-primary/80 leading-normal mb-6" style={{ fontSize: 16 }}>
+        <p className="lg:hidden font-body font-medium text-text-primary/80 leading-normal mb-6" style={{ fontSize: 16 }}>
           {t.description}
         </p>
 
         {/* Mobile cards — 2-col, icon + title only */}
-        <div className="flex flex-wrap gap-[8px] md:hidden">
+        <div className="flex flex-wrap gap-[8px] lg:hidden">
           {cards.map((card, i) => (
             <motion.div
               key={i}
@@ -100,7 +100,7 @@ export default function Ecosystem() {
         </div>
 
         {/* Desktop cards — 3-col grid */}
-        <div className="hidden md:flex flex-col gap-[32px]">
+        <div className="hidden lg:flex flex-col gap-[32px]">
           {[cards.slice(0, 3), cards.slice(3, 6)].map((row, rowIdx) => (
             <div key={rowIdx} className="flex gap-[32px]">
               {row.map((card, i) => (

@@ -28,7 +28,7 @@ function BulletItem({ bold, normal }: { bold?: string; normal?: string }) {
       <div className="flex-shrink-0 pt-[2px]" style={{ width: 16, height: 18 }}>
         <img src={BULLET_ICON} alt="" aria-hidden className="w-4 h-4 object-contain" />
       </div>
-      <p className="font-body text-text-primary flex-1 text-[14px] md:text-[16px]" style={{ lineHeight: "24px" }}>
+      <p className="font-body text-text-primary flex-1 text-[14px] lg:text-[16px]" style={{ lineHeight: "24px" }}>
         {bold && <span className="font-bold">{bold}</span>}
         {normal && <span>{normal}</span>}
       </p>
@@ -94,7 +94,7 @@ export default function ServicesPage() {
 
       {/* Packages Section */}
       <section
-        className="relative overflow-hidden px-6 md:px-40"
+        className="relative overflow-hidden px-6 lg:px-40"
         style={{ paddingTop: 60, paddingBottom: 60 }}
       >
         <div className="absolute inset-0 bg-bg-primary pointer-events-none" />
@@ -113,18 +113,18 @@ export default function ServicesPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="flex flex-col items-start mb-[24px] md:mb-[40px]"
+            className="flex flex-col items-start mb-[24px] lg:mb-[40px]"
             style={{ gap: 12 }}
           >
-            <p className="font-body font-bold text-brand uppercase tracking-[2.5px] text-[12px] md:text-[16px]">
+            <p className="font-body font-bold text-brand uppercase tracking-[2.5px] text-[12px] lg:text-[16px]">
               {t.packages.eyebrow}
             </p>
-            <p className="font-heading font-bold text-text-primary text-[28px] leading-[34px] md:text-[42px] md:leading-[50px]">
+            <p className="font-heading font-bold text-text-primary text-[28px] leading-[34px] lg:text-[42px] lg:leading-[50px]">
               {t.packages.heading}
             </p>
           </motion.div>
 
-          <div className="flex flex-col md:flex-row md:flex-wrap" style={{ gap: 24 }}>
+          <div className="flex flex-col lg:flex-row lg:flex-wrap" style={{ gap: 24 }}>
 
             {/* ── Package 1 ── */}
             <motion.div
@@ -132,15 +132,15 @@ export default function ServicesPage() {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.6, delay: 0, ease: [0.22, 1, 0.36, 1] }}
-              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_10px_3px_rgba(0,0,0,0.25)] flex flex-col w-full md:flex-1 md:min-w-0 overflow-hidden p-16 md:p-24"
+              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_10px_3px_rgba(0,0,0,0.25)] flex flex-col w-full lg:flex-1 lg:min-w-0 overflow-hidden p-16 lg:p-24"
               style={{ gap: 16 }}
             >
               <div className="flex flex-col" style={{ gap: 8 }}>
-                <div className="hidden md:flex items-start justify-between flex-shrink-0">
+                <div className="hidden lg:flex items-start justify-between flex-shrink-0">
                   <TagBadge label={t.pkg1.tag} />
                   <p className="font-heading font-bold text-brand" style={{ fontSize: 20, lineHeight: "30px" }}>{t.pkg1.price}</p>
                 </div>
-                <div className="md:hidden flex items-center justify-between flex-shrink-0">
+                <div className="lg:hidden flex items-center justify-between flex-shrink-0">
                   <TagBadge label={t.pkg1.tag} />
                   <button onClick={() => toggleCard(0)} aria-label={expandedCard === 0 ? "Collapse" : "Expand"} className="p-1">
                     <ChevronDown open={expandedCard === 0} />
@@ -148,7 +148,7 @@ export default function ServicesPage() {
                 </div>
                 <div className="flex flex-row items-center" style={{ gap: 16 }}>
                   <p className="font-heading font-light text-brand flex-shrink-0" style={{ fontSize: 36, lineHeight: "normal" }}>{t.pkg1.num}</p>
-                  <p className="font-heading font-bold text-text-primary text-[18px] md:text-[28px] leading-6 md:leading-[30px]">
+                  <p className="font-heading font-bold text-text-primary text-[18px] lg:text-[28px] leading-6 lg:leading-[30px]">
                     {t.pkg1.title}
                   </p>
                 </div>
@@ -157,7 +157,7 @@ export default function ServicesPage() {
               <AnimatePresence initial={false}>
                 {expandedCard === 0 && (
                   <motion.div
-                    className="md:hidden"
+                    className="lg:hidden"
                     initial="closed"
                     animate="open"
                     exit="closed"
@@ -194,7 +194,7 @@ export default function ServicesPage() {
                   </motion.div>
                 )}
               </AnimatePresence>
-              <div className="hidden md:flex flex-col" style={{ gap: 16 }}>
+              <div className="hidden lg:flex flex-col" style={{ gap: 16 }}>
                 <p className="font-body text-text-primary text-[16px]" style={{ lineHeight: "24px" }}>{t.pkg1.intro}</p>
                 <div className="flex flex-col" style={{ gap: 12 }}>
                   {t.pkg1.bullets.map((b, i) => <BulletItem key={i} bold={b.bold} normal={b.normal} />)}
@@ -211,15 +211,15 @@ export default function ServicesPage() {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_10px_3px_rgba(0,0,0,0.25)] flex flex-col w-full md:flex-1 md:min-w-0 overflow-hidden p-16 md:p-24"
+              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_10px_3px_rgba(0,0,0,0.25)] flex flex-col w-full lg:flex-1 lg:min-w-0 overflow-hidden p-16 lg:p-24"
               style={{ gap: 16 }}
             >
               <div className="flex flex-col" style={{ gap: 8 }}>
-                <div className="hidden md:flex items-start justify-between flex-shrink-0">
+                <div className="hidden lg:flex items-start justify-between flex-shrink-0">
                   <TagBadge label={t.pkg2.tag} />
                   <p className="font-heading font-bold text-brand" style={{ fontSize: 20, lineHeight: "30px" }}>{t.pkg2.price}</p>
                 </div>
-                <div className="md:hidden flex items-center justify-between flex-shrink-0">
+                <div className="lg:hidden flex items-center justify-between flex-shrink-0">
                   <TagBadge label={t.pkg2.tag} />
                   <button onClick={() => toggleCard(1)} aria-label={expandedCard === 1 ? "Collapse" : "Expand"} className="p-1">
                     <ChevronDown open={expandedCard === 1} />
@@ -227,7 +227,7 @@ export default function ServicesPage() {
                 </div>
                 <div className="flex flex-row items-center" style={{ gap: 16 }}>
                   <p className="font-heading font-light text-brand flex-shrink-0" style={{ fontSize: 36, lineHeight: "normal" }}>{t.pkg2.num}</p>
-                  <p className="font-heading font-bold text-text-primary text-[18px] md:text-[28px] leading-6 md:leading-[30px]">
+                  <p className="font-heading font-bold text-text-primary text-[18px] lg:text-[28px] leading-6 lg:leading-[30px]">
                     {t.pkg2.title}
                   </p>
                 </div>
@@ -236,7 +236,7 @@ export default function ServicesPage() {
               <AnimatePresence initial={false}>
                 {expandedCard === 1 && (
                   <motion.div
-                    className="md:hidden"
+                    className="lg:hidden"
                     initial="closed"
                     animate="open"
                     exit="closed"
@@ -276,7 +276,7 @@ export default function ServicesPage() {
                   </motion.div>
                 )}
               </AnimatePresence>
-              <div className="hidden md:flex flex-col" style={{ gap: 16 }}>
+              <div className="hidden lg:flex flex-col" style={{ gap: 16 }}>
                 <p className="font-body text-text-primary text-[16px]" style={{ lineHeight: "24px" }}>{t.pkg2.intro}</p>
                 <div className="flex flex-col" style={{ gap: 12 }}>
                   {t.pkg2.bullets.map((b, i) => {
@@ -291,7 +291,7 @@ export default function ServicesPage() {
             </motion.div>
 
             {/* ── Packages 3 + 4 row ── */}
-            <div className="flex flex-col md:flex-row w-full" style={{ gap: 24 }}>
+            <div className="flex flex-col lg:flex-row w-full" style={{ gap: 24 }}>
 
               {/* Package 3 */}
               <motion.div
@@ -299,15 +299,15 @@ export default function ServicesPage() {
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 viewport={{ once: true, margin: "-40px" }}
                 transition={{ duration: 0.6, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-                className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_10px_3px_rgba(0,0,0,0.25)] flex flex-1 flex-col items-start min-w-0 overflow-hidden p-16 md:p-24"
+                className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_10px_3px_rgba(0,0,0,0.25)] flex flex-1 flex-col items-start min-w-0 overflow-hidden p-16 lg:p-24"
                 style={{ gap: 16 }}
               >
                 <div className="flex flex-col w-full" style={{ gap: 8 }}>
-                  <div className="hidden md:flex items-start justify-between w-full flex-shrink-0">
+                  <div className="hidden lg:flex items-start justify-between w-full flex-shrink-0">
                     <TagBadge label={t.pkg3.tag} />
                     <p className="font-heading font-bold text-brand" style={{ fontSize: 20, lineHeight: "30px" }}>{t.pkg3.price}</p>
                   </div>
-                  <div className="md:hidden flex items-center justify-between w-full flex-shrink-0">
+                  <div className="lg:hidden flex items-center justify-between w-full flex-shrink-0">
                     <TagBadge label={t.pkg3.tag} />
                     <button onClick={() => toggleCard(2)} aria-label={expandedCard === 2 ? "Collapse" : "Expand"} className="p-1">
                       <ChevronDown open={expandedCard === 2} />
@@ -315,14 +315,14 @@ export default function ServicesPage() {
                   </div>
                   <div className="flex flex-row items-center w-full" style={{ gap: 16 }}>
                     <p className="font-heading font-light text-brand flex-shrink-0" style={{ fontSize: 36, lineHeight: "normal" }}>{t.pkg3.num}</p>
-                    <p className="font-heading font-bold text-text-primary text-[18px] md:text-[28px] leading-6 md:leading-[30px]">{t.pkg3.title}</p>
+                    <p className="font-heading font-bold text-text-primary text-[18px] lg:text-[28px] leading-6 lg:leading-[30px]">{t.pkg3.title}</p>
                   </div>
                 </div>
 
                 <AnimatePresence initial={false}>
                   {expandedCard === 2 && (
                     <motion.div
-                      className="md:hidden w-full"
+                      className="lg:hidden w-full"
                       initial="closed"
                       animate="open"
                       exit="closed"
@@ -359,7 +359,7 @@ export default function ServicesPage() {
                     </motion.div>
                   )}
                 </AnimatePresence>
-                <div className="hidden md:flex flex-col w-full" style={{ gap: 16 }}>
+                <div className="hidden lg:flex flex-col w-full" style={{ gap: 16 }}>
                   <p className="font-body text-text-primary text-[16px]" style={{ lineHeight: "24px" }}>{t.pkg3.intro}</p>
                   <div className="flex flex-col w-full" style={{ gap: 12 }}>
                     {t.pkg3.bullets.map((b, i) => <BulletItem key={i} normal={b.normal} />)}
@@ -376,15 +376,15 @@ export default function ServicesPage() {
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 viewport={{ once: true, margin: "-40px" }}
                 transition={{ duration: 0.6, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-                className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_10px_3px_rgba(0,0,0,0.25)] flex flex-1 flex-col items-start min-w-0 overflow-hidden p-16 md:p-24"
+                className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_10px_3px_rgba(0,0,0,0.25)] flex flex-1 flex-col items-start min-w-0 overflow-hidden p-16 lg:p-24"
                 style={{ gap: 16 }}
               >
                 <div className="flex flex-col w-full" style={{ gap: 8 }}>
-                  <div className="hidden md:flex items-start justify-between w-full flex-shrink-0">
+                  <div className="hidden lg:flex items-start justify-between w-full flex-shrink-0">
                     <TagBadge label={t.pkg4.tag} />
-                    <p className="font-heading font-bold text-brand text-[16px] md:text-[20px]" style={{ lineHeight: "30px", whiteSpace: "nowrap" }}>{t.pkg4.price}</p>
+                    <p className="font-heading font-bold text-brand text-[16px] lg:text-[20px]" style={{ lineHeight: "30px", whiteSpace: "nowrap" }}>{t.pkg4.price}</p>
                   </div>
-                  <div className="md:hidden flex items-center justify-between w-full flex-shrink-0">
+                  <div className="lg:hidden flex items-center justify-between w-full flex-shrink-0">
                     <TagBadge label={t.pkg4.tag} />
                     <button onClick={() => toggleCard(3)} aria-label={expandedCard === 3 ? "Collapse" : "Expand"} className="p-1">
                       <ChevronDown open={expandedCard === 3} />
@@ -392,14 +392,14 @@ export default function ServicesPage() {
                   </div>
                   <div className="flex flex-row items-center w-full" style={{ gap: 16 }}>
                     <p className="font-heading font-light text-brand flex-shrink-0" style={{ fontSize: 36, lineHeight: "normal" }}>{t.pkg4.num}</p>
-                    <p className="font-heading font-bold text-text-primary text-[18px] md:text-[28px] leading-6 md:leading-[30px]">{t.pkg4.title}</p>
+                    <p className="font-heading font-bold text-text-primary text-[18px] lg:text-[28px] leading-6 lg:leading-[30px]">{t.pkg4.title}</p>
                   </div>
                 </div>
 
                 <AnimatePresence initial={false}>
                   {expandedCard === 3 && (
                     <motion.div
-                      className="md:hidden w-full"
+                      className="lg:hidden w-full"
                       initial="closed"
                       animate="open"
                       exit="closed"
@@ -431,7 +431,7 @@ export default function ServicesPage() {
                     </motion.div>
                   )}
                 </AnimatePresence>
-                <div className="hidden md:flex flex-col w-full" style={{ gap: 12 }}>
+                <div className="hidden lg:flex flex-col w-full" style={{ gap: 12 }}>
                   <p className="font-body text-text-primary text-[16px]" style={{ lineHeight: "24px" }}>{t.pkg4.body1}</p>
                   <p className="font-body text-text-primary text-[16px]" style={{ lineHeight: "24px" }}>{t.pkg4.body2}</p>
                 </div>
@@ -454,7 +454,7 @@ export default function ServicesPage() {
 
       {/* For the Schools */}
       <section
-        className="relative overflow-hidden px-6 md:px-40"
+        className="relative overflow-hidden px-6 lg:px-40"
         style={{ paddingTop: 60, paddingBottom: 60 }}
       >
         <div
@@ -477,10 +477,10 @@ export default function ServicesPage() {
             className="flex flex-col items-start"
             style={{ gap: 12 }}
           >
-            <p className="font-body font-bold text-brand uppercase tracking-[2.5px] text-[12px] md:text-[16px]">
+            <p className="font-body font-bold text-brand uppercase tracking-[2.5px] text-[12px] lg:text-[16px]">
               {t.partnerships.eyebrow}
             </p>
-            <p className="font-heading font-bold text-text-primary text-[28px] leading-[34px] md:text-[42px] md:leading-[50px]">
+            <p className="font-heading font-bold text-text-primary text-[28px] leading-[34px] lg:text-[42px] lg:leading-[50px]">
               {t.partnerships.heading}
             </p>
           </motion.div>
@@ -489,7 +489,7 @@ export default function ServicesPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-40px" }}
             transition={{ duration: 0.6, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
-            className="font-body text-text-primary w-full text-[14px] md:text-[16px]"
+            className="font-body text-text-primary w-full text-[14px] lg:text-[16px]"
             style={{ lineHeight: "24px" }}
           >
             {t.partnerships.body}
@@ -499,7 +499,7 @@ export default function ServicesPage() {
 
       {/* Hub — Coming Soon overlay */}
       <section
-        className="relative overflow-hidden px-6 md:px-40"
+        className="relative overflow-hidden px-6 lg:px-40"
         style={{ paddingTop: 60, paddingBottom: 60 }}
       >
         <div className="absolute inset-0 bg-bg-primary pointer-events-none" />
@@ -512,23 +512,23 @@ export default function ServicesPage() {
           }}
         />
         <div
-          className="relative z-10 flex flex-col md:flex-row md:items-center"
+          className="relative z-10 flex flex-col lg:flex-row lg:items-center"
           style={{ gap: 48, maxWidth: 1120, marginLeft: "auto", marginRight: "auto" }}
         >
           {/* Left: platform image */}
-          <div className="w-full md:flex-1 min-w-0">
+          <div className="w-full lg:flex-1 min-w-0">
             <img src={HUB_IMAGE} alt="Pine Education Hub platform" className="w-full h-auto object-cover rounded-md" />
           </div>
 
           {/* Right: heading + description + feature items */}
-          <div className="flex flex-col items-start md:w-[420px] md:flex-shrink-0" style={{ gap: 20 }}>
-            <p className="font-body font-bold text-text-secondary uppercase tracking-[2.5px] text-[12px] md:text-[14px]">
+          <div className="flex flex-col items-start lg:w-[420px] lg:flex-shrink-0" style={{ gap: 20 }}>
+            <p className="font-body font-bold text-text-secondary uppercase tracking-[2.5px] text-[12px] lg:text-[14px]">
               {t.hub.eyebrow}
             </p>
-            <p className="font-heading font-bold text-text-primary text-[28px] leading-[34px] md:text-[42px] md:leading-[50px]">
+            <p className="font-heading font-bold text-text-primary text-[28px] leading-[34px] lg:text-[42px] lg:leading-[50px]">
               {t.hub.heading}
             </p>
-            <p className="font-body text-text-secondary text-[14px] md:text-[16px]" style={{ lineHeight: "26px" }}>
+            <p className="font-body text-text-secondary text-[14px] lg:text-[16px]" style={{ lineHeight: "26px" }}>
               {t.hub.body}
             </p>
             <div className="flex flex-col w-full" style={{ gap: 16 }}>
@@ -557,7 +557,7 @@ export default function ServicesPage() {
           transition={{ duration: 0.4, ease: "easeOut" }}
         >
           <motion.p
-            className="font-heading font-bold text-text-on-dark text-[32px] md:text-[42px]"
+            className="font-heading font-bold text-text-on-dark text-[32px] lg:text-[42px]"
             style={{ lineHeight: "50px" }}
             variants={{
               rest: { scale: 1, y: 0, opacity: 1 },
