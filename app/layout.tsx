@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, DM_Sans } from "next/font/google";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -40,6 +40,10 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  themeColor: "#2e4a3a",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -47,15 +51,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${dmSans.variable}`}>
-      <head>
-        <meta name="theme-color" content="#2e4a3a" />
-      </head>
-      <body className="font-body antialiased">
+      <body className="font-body bg-bg-primary antialiased">
         <LanguageProvider>
-          <div className="bg-bg-primary min-h-screen">
-            <ScrollToTop />
-            {children}
-          </div>
+          <ScrollToTop />
+          {children}
         </LanguageProvider>
       </body>
     </html>
