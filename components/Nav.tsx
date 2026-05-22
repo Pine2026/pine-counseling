@@ -122,10 +122,8 @@ export default function Nav() {
 
   return (
     <>
-      {/* Fills the overscroll area above the nav on iOS Safari */}
-      <div className="fixed inset-x-0 bg-brand" style={{ bottom: "100vh", top: -600, zIndex: 49 }} aria-hidden />
-      <nav className="fixed top-0 inset-x-0 z-50 bg-brand" style={{ height: 72 }}>
-        <div className="h-full flex items-center justify-between px-6 lg:px-[80px]">
+      <nav className="fixed top-0 inset-x-0 z-50 bg-brand" style={{ paddingTop: "env(safe-area-inset-top)" }}>
+        <div className="flex items-center justify-between px-6 lg:px-[80px]" style={{ height: 72 }}>
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 flex-shrink-0">
             <img

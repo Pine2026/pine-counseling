@@ -101,6 +101,25 @@ img {
   overflow: hidden;
 }
 
+/* Safe-area-aware nav offsets (Dynamic Island / iPhone 15) */
+.hero-bg-top {
+  top: calc(72px + env(safe-area-inset-top, 0px));
+}
+
+.hero-content-pt {
+  padding-top: calc(80px + env(safe-area-inset-top, 0px));
+}
+
+.page-hero-pt {
+  padding-top: calc(88px + env(safe-area-inset-top, 0px));
+}
+
+@media (min-width: 768px) {
+  .page-hero-pt {
+    padding-top: 20px;
+  }
+}
+
 /* Nav transition */
 .nav-solid {
   background-color: #2e4a3a;
