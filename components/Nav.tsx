@@ -122,6 +122,11 @@ export default function Nav() {
 
   return (
     <>
+      {/* DEBUG: red diagnostic rectangle — remove after testing */}
+      <div
+        className="fixed inset-x-0 lg:hidden"
+        style={{ top: 0, height: 200, background: "red", zIndex: 9999, pointerEvents: "none" }}
+      />
       <nav
         className="fixed top-0 inset-x-0 z-50 bg-brand"
         style={{
