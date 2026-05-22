@@ -14,18 +14,17 @@ export default function Hero() {
   const t = translations[lang].hero;
 
   return (
-    <section className="relative overflow-hidden h-[505px] lg:h-[720px]">
-      {/* Background — mobile */}
-      <div className="absolute inset-0 lg:hidden">
-        {/* Image starts below the fixed nav (72px) so the very top of the image is the first visible content */}
+    <section className="relative overflow-hidden h-[505px] lg:h-[720px] bg-brand">
+      {/* Background — mobile: hero-bg-top offsets image below nav so browser chrome shows brand green */}
+      <div className="absolute inset-0 hero-bg-top lg:hidden">
         <div className="absolute inset-x-0 bottom-0 inset-0">
           <Image src={HERO_IMAGE_MOBILE} alt="" fill sizes="100vw" quality={100} className="object-cover object-top" priority fetchPriority="high" />
         </div>
         <div className="absolute inset-0" style={{ background: "rgba(73,137,47,0.2)" }} />
         <div className="absolute inset-0" style={{ background: "linear-gradient(244deg, rgba(109,176,138,0) 10.286%, rgb(46,74,58) 100.53%)" }} />
       </div>
-      {/* Background — desktop */}
-      <div className="absolute inset-0 hidden lg:block">
+      {/* Background — desktop: same hero-bg-top offset */}
+      <div className="absolute inset-0 hidden lg:block hero-bg-top">
         <div className="absolute inset-x-0 bottom-0 inset-0">
           <Image src={HERO_IMAGE} alt="" fill sizes="100vw" quality={100} className="object-cover object-top" priority fetchPriority="high" />
         </div>

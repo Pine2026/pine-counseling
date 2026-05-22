@@ -26,10 +26,11 @@ export default function PageHero({
 }: PageHeroProps) {
   return (
     <section
-      className="relative overflow-hidden border-t border-b border-border-strong shadow-[0px_10px_20px_0px_rgba(0,0,0,0.4)] flex flex-col justify-center px-6 md:px-40 min-h-[320px] md:min-h-[520px] z-[1] page-hero-pt pb-10 md:pb-20"
+      className="relative overflow-hidden border-t border-b border-border-strong shadow-[0px_10px_20px_0px_rgba(0,0,0,0.4)] flex flex-col justify-center px-6 md:px-40 min-h-[320px] md:min-h-[520px] z-[1] page-hero-pt pb-10 md:pb-20 bg-brand"
     >
       {/* Background */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden>
+      {/* hero-bg-top offsets background below nav so browser chrome shows brand green, not the hero image */}
+      <div className="absolute inset-0 hero-bg-top overflow-hidden pointer-events-none" aria-hidden>
         {/* Image starts below the fixed nav so the very top of each image is the first visible content */}
         {mobileImageSrc ? (
           <>
