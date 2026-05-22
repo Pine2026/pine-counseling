@@ -122,19 +122,15 @@ export default function Nav() {
 
   return (
     <>
-      {/* DEBUG: red diagnostic rectangle — remove after testing */}
-      <div
-        className="fixed inset-x-0 lg:hidden"
-        style={{ top: 0, height: 200, background: "red", zIndex: 9999, pointerEvents: "none" }}
-      />
       <nav
-        className="fixed top-0 inset-x-0 z-50 bg-brand"
+        className="fixed top-0 inset-x-0 bg-brand"
         style={{
           height: "calc(72px + env(safe-area-inset-top, 0px))",
           paddingTop: "env(safe-area-inset-top, 0px)",
           WebkitBackfaceVisibility: "hidden",
           backfaceVisibility: "hidden",
           transform: "translateZ(0)",
+          zIndex: 9999,
         }}
       >
         <div className="relative z-10 flex items-center justify-between px-6 lg:px-[80px]" style={{ height: 72 }}>
@@ -261,7 +257,7 @@ export default function Nav() {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.2 }}
               className="fixed inset-0 lg:hidden"
-              style={{ background: "rgba(46,74,58,0.75)", zIndex: 49 }}
+              style={{ background: "rgba(46,74,58,0.75)", zIndex: 9998 }}
               onClick={() => setMenuOpen(false)}
             />
 
@@ -281,7 +277,7 @@ export default function Nav() {
                 background: "#e4ece5",
                 borderRadius: 8,
                 boxShadow: "4px 8px 20px rgba(0,0,0,0.25)",
-                zIndex: 50,
+                zIndex: 9999,
                 padding: 16,
               }}
             >
