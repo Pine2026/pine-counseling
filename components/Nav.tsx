@@ -133,8 +133,8 @@ export default function Nav() {
               style={{ width: 24, height: 38 }}
             />
             <span
-              className="font-heading font-bold text-text-on-dark"
-              style={{ fontSize: 18, lineHeight: "22px" }}
+              className="font-heading font-bold"
+              style={{ fontSize: 18, lineHeight: "22px", color: "#ff0000" }}
             >
               Pine<br />Counseling
             </span>
