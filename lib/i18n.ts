@@ -1,4 +1,4 @@
-import type { Lang } from "@/contexts/LanguageContext";
+﻿import type { Lang } from "@/contexts/LanguageContext";
 
 const EN = {
   nav: {
@@ -14,7 +14,7 @@ const EN = {
   hero: {
     title: "We Shape Your\nUniversity Journey",
     description:
-      "Pine College Counseling guides high school students through every step of studying abroad. A curated, expert-led journey to the world’s finest universities.",
+      "Pine College Counseling guides high school students through every step of studying abroad. A curated, expert-led journey to the world's finest universities.",
     cta1: "Book a Consultation",
     cta2: "Explore Services",
     stat1Label: "Countries / Global Reach",
@@ -65,7 +65,7 @@ const EN = {
     heading1: "Built",
     heading2: "Around You",
     description:
-      "We don’t believe in shortcuts or assumptions. Our focus is on building a future beyond admission.",
+      "We don't believe in shortcuts or assumptions. Our focus is on building a future beyond admission.",
     cards: [
       {
         title: "Right Fit",
@@ -95,13 +95,13 @@ const EN = {
   },
   founderQuote: {
     quote:
-      “”International university consulting has a reputation problem. Promises are made, folders are filled, and students end up in programs that were never really right for them. We started Pine College Counseling because we believed the process could be honest, and the outcome could actually matter. We work with both students and parents, take the time to understand who the student really is, and build paths around their abilities, personality, and long-term goals. Getting in is just the beginning. We’re here to make sure what comes after works too.””,
-    author: “— Pine College Counseling”,
+      '"International university consulting has a reputation problem. Promises are made, folders are filled, and students end up in programs that were never really right for them. We started Pine College Counseling because we believed the process could be honest, and the outcome could actually matter. We work with both students and parents, take the time to understand who the student really is, and build paths around their abilities, personality, and long-term goals. Getting in is just the beginning. We\'re here to make sure what comes after works too."',
+    author: "— Pine College Counseling",
   },
   ctaBanner: {
     eyebrow: "NEXT STEP",
-    heading: "Not Sure What’s Next?",
-    body: "Book a free consultation and let’s shape your future together",
+    heading: "Not Sure What's Next?",
+    body: "Book a free consultation and let's shape your future together",
     button: "Discover Your Strategy",
   },
   footer: {
@@ -129,7 +129,7 @@ const EN = {
     partnerships: {
       eyebrow: "PARTNERSHIPS",
       heading: "For the Schools",
-      body: "We collaborate with schools to support students in building strong, realistic pathways toward international higher education. Through Pine College Counseling Hub, students gain access to curated resources, structured guidance, and ongoing support that complements the school’s existing academic framework.",
+      body: "We collaborate with schools to support students in building strong, realistic pathways toward international higher education. Through Pine College Counseling Hub, students gain access to curated resources, structured guidance, and ongoing support that complements the school's existing academic framework.",
     },
     hub: {
       eyebrow: "Ecosystem",
@@ -157,7 +157,7 @@ const EN = {
         {
           bold: "Parent interview (90 min): ",
           normal:
-            "financial expectations, educational background, insights on the student. Alongside a structured assessment of the family’s financial capacity to ensure all recommended universities align realistically with the defined budget.",
+            "financial expectations, educational background, insights on the student. Alongside a structured assessment of the family's financial capacity to ensure all recommended universities align realistically with the defined budget.",
         },
         {
           bold: "Individual student interview (60-80 min): ",
@@ -165,19 +165,19 @@ const EN = {
         },
         {
           bold: "Psychometric assessment: ",
-          normal: "the student’s cognitive abilities, interests, personality and learning style are examined.",
+          normal: "the student's cognitive abilities, interests, personality and learning style are examined.",
         },
       ],
       outcomeLabel: "Outcome:",
       outcome:
-        "As a result of our assessment we will provide 5–7 tailored university program options. Realistic alignment between the student’s abilities, academic background, career goals, and financial constraints. Avoids overly ambitious or misaligned applications.",
+        "As a result of our assessment we will provide 5–7 tailored university program options. Realistic alignment between the student's abilities, academic background, career goals, and financial constraints. Avoids overly ambitious or misaligned applications.",
     },
     pkg2: {
       tag: "For students with high goals",
       price: "€2000",
       num: "02",
       title: "Strategy & Application Support",
-      intro: "“With a strategic and supportive approach, gain admission to your dream universities.”",
+      intro: '"With a strategic and supportive approach, gain admission to your dream universities."',
       bullets: [
         { normal: "Everything in Package 1, along with full strategy and application support." },
         {
@@ -200,7 +200,7 @@ const EN = {
       title: "Last Call Support",
       intro: "Strengthen your applications in the final stretch.",
       bullets: [
-        { normal: "Rapid assessment of the student’s current academic profile" },
+        { normal: "Rapid assessment of the student's current academic profile" },
         { normal: "Identification of still-open programs and rolling admissions" },
         {
           normal:
@@ -220,7 +220,7 @@ const EN = {
       num: "04",
       title: "Academic Private Tutoring",
       body1:
-        "We connect students with experienced educators who have taught international programs such as AP, A-Levels, and IB for many years. Sessions are designed as individualized support based on each student’s academic goals, current level, and application plan.",
+        "We connect students with experienced educators who have taught international programs such as AP, A-Levels, and IB for many years. Sessions are designed as individualized support based on each student's academic goals, current level, and application plan.",
       body2:
         "You can contact us by specifying the subjects you need academic support in, as well as the curriculum you are following.",
     },
@@ -235,7 +235,7 @@ const EN = {
       eyebrow: "OUR MISSION",
       heading: "For what comes after.",
       quote:
-        "“Every step is intentional; so the student builds a consistent and credible profile, rather than a scattered list of activities.”",
+        '"Every step is intentional; so the student builds a consistent and credible profile, rather than a scattered list of activities."',
       body: "Many consulting firms focus only on getting students admitted. We look beyond that. At Pine College Counseling, we work with both students and parents to develop a realistic understanding of the student, their strengths, personality, and goals. Based on this, we match them with programs where they can truly thrive, not only academically, but in the long run as well.",
     },
     approach: {
@@ -245,7 +245,7 @@ const EN = {
         {
           number: "01",
           title: "We Start With the Student",
-          body: "We begin with the student, not a shortlist. Every step is shaped according to the individual’s profile.",
+          body: "We begin with the student, not a shortlist. Every step is shaped according to the individual's profile.",
         },
         {
           number: "02",
@@ -264,9 +264,9 @@ const EN = {
       heading: "Our Team",
       name: "Ekin Gümüş, MSc",
       title: "Clinical Psycho-Sexologist",
-      bio1: "Growing up between different countries in Europe and Türkiye gave me the opportunity to experience diverse educational systems and academic approaches firsthand. I began my higher education at the University of Padua, where I studied my undergraduate in psychology with a focus on neuroscience. I later completed my master’s degree in Clinical Psychosexology at the Sapienza University of Rome, Faculty of Medicine.",
-      bio2: "Alongside my clinical work, I focus on international education systems and university application processes, supporting students through their academic, cultural, and personal development journeys. As a former school psychologist and college counselor, I developed a perspective that considers not only academic performance, but also students’ motivation, anxiety, sense of belonging, and future expectations.",
-      bio3: "Through hands-on experience in international university admissions and placement processes, I offer an approach that bridges different educational systems, cultures, and expectations. I believe that every student’s story is unique, and therefore I avoid standardized models in favor of tailoring each process to individual needs. I also believe that maintaining sustainable and healthy communication with families plays a crucial role in a student’s long-term development.",
+      bio1: "Growing up between different countries in Europe and Türkiye gave me the opportunity to experience diverse educational systems and academic approaches firsthand. I began my higher education at the University of Padua, where I studied my undergraduate in psychology with a focus on neuroscience. I later completed my master's degree in Clinical Psychosexology at the Sapienza University of Rome, Faculty of Medicine.",
+      bio2: "Alongside my clinical work, I focus on international education systems and university application processes, supporting students through their academic, cultural, and personal development journeys. As a former school psychologist and college counselor, I developed a perspective that considers not only academic performance, but also students' motivation, anxiety, sense of belonging, and future expectations.",
+      bio3: "Through hands-on experience in international university admissions and placement processes, I offer an approach that bridges different educational systems, cultures, and expectations. I believe that every student's story is unique, and therefore I avoid standardized models in favor of tailoring each process to individual needs. I also believe that maintaining sustainable and healthy communication with families plays a crucial role in a student's long-term development.",
       readMore: "Read more",
       readLess: "Read less",
     },
@@ -292,7 +292,7 @@ const EN = {
         },
         {
           q: "Do you help with scholarship applications?",
-          a: "Yes. We identify scholarship opportunities aligned with the student’s profile, develop a tailored application strategy, and provide guidance in preparing all required documents.",
+          a: "Yes. We identify scholarship opportunities aligned with the student's profile, develop a tailored application strategy, and provide guidance in preparing all required documents.",
         },
       ],
     },
@@ -300,7 +300,7 @@ const EN = {
   contactPage: {
     hero: {
       eyebrow: "CONTACT",
-      title: "Let’s Shape Your\nPath Together",
+      title: "Let's Shape Your\nPath Together",
       description: "Choose your preferred way to reach us. We typically respond within 24 hours.",
     },
     form: {
@@ -314,12 +314,12 @@ const EN = {
       submit: "Send Message",
       disclaimer: "No commitment required",
       successHeading: "Message sent!",
-      successBody: "We’ll be in touch within 24 hours.",
-      successFallback: "If your email app didn’t open, you can reach us directly at",
+      successBody: "We'll be in touch within 24 hours.",
+      successFallback: "If your email app didn't open, you can reach us directly at",
     },
     reach: {
       heading: "Reach Out Directly",
-      body: "Ready to explore international education opportunities? Get in touch and let’s talk about your future.",
+      body: "Ready to explore international education opportunities? Get in touch and let's talk about your future.",
     },
   },
 };
@@ -419,7 +419,7 @@ const TR = {
   },
   founderQuote: {
     quote:
-      "“Uluslararası üniversite danışmanlığının bir itibar sorunu var. Vaatler yapılır, klasörler doldurulur ve öğrenciler kendileri için hiç doğru olmayan programlarda bulunur. Pine College Counseling’i kurduk çünkü bu sürecin dürüst olabileceğine ve sonucun gerçekten önem taşıyabileceğine inandık. Hem öğrencilerle hem de ailelerle çalışıyor, öğrencinin gerçekte kim olduğunu anlamak için zaman ayırıyor ve yolları onların yetenekleri, kişilikleri ve uzun vadeli hedefleri etrafında inşa ediyoruz. Kabul almak yalnızca bir başlangıçtır. Biz sonrasının da işe yamasını sağlamak için buradayiz.”",
+      '"Uluslararası üniversite danışmanlığının bir itibar sorunu var. Vaatler yapılır, klasörler doldurulur ve öğrenciler kendileri için hiç doğru olmayan programlarda bulunur. Pine College Counseling\'i kurduk çünkü bu sürecin dürüst olabileceğine ve sonucun gerçekten önem taşıyabileceğine inandık. Hem öğrencilerle hem de ailelerle çalışıyor, öğrencinin gerçekte kim olduğunu anlamak için zaman ayırıyor ve yolları onların yetenekleri, kişilikleri ve uzun vadeli hedefleri etrafında inşa ediyoruz. Kabul almak yalnızca bir başlangıçtır. Biz sonrasının da işe yamasını sağlamak için buradayiz."',
     author: "— Pine College Counseling",
   },
   ctaBanner: {
@@ -502,9 +502,9 @@ const TR = {
       price: "€2000",
       num: "02",
       title: "Strateji & Başvuru Desteği",
-      intro: "“Stratejik ve destekleyici bir yaklaşımla, hayalinizdeki üniversitelere kabul alın.”",
+      intro: '"Stratejik ve destekleyici bir yaklaşımla, hayalinizdeki üniversitelere kabul alın."',
       bullets: [
-        { normal: "Paket 1’deki her şey, artı tam strateji ve başvuru desteği." },
+        { normal: "Paket 1'deki her şey, artı tam strateji ve başvuru desteği." },
         {
           normal:
             "Uygunluk ve rekabet gürünü sağlamak için farklı sistemlerde (AP, A-Levels, IB, Avrupa ulusal müfredatları ve Türk sistemi) eğitim planlaması.",
@@ -519,7 +519,7 @@ const TR = {
       ],
       outcomeLabel: "Sonuç:",
       outcome:
-        "Kişiselletirilmiş belgeler (motivasyon mektupları, CV’ler) ve doğru portföyü oluşturmaya yönelik öneriler bu paketin parçasıdır, Paket 1’in değil. Paket 1 ayrı olarak daha önce satın alınmışsa, ödenen €700, toplam paket ücretinden düşülecektir.",
+        "Kişiselletirilmiş belgeler (motivasyon mektupları, CV'ler) ve doğru portföyü oluşturmaya yönelik öneriler bu paketin parçasıdır, Paket 1'in değil. Paket 1 ayrı olarak daha önce satın alınmışsa, ödenen €700, toplam paket ücretinden düşülecektir.",
     },
     pkg3: {
       tag: "Kısa sürede yoğun destek.",
@@ -544,8 +544,8 @@ const TR = {
     },
     pkg4: {
       tag: "Lise öğrencileri için",
-      price: "Saatlik €50’den",
-      priceMobile: "Saatlik €50’den",
+      price: "Saatlik €50'den",
+      priceMobile: "Saatlik €50'den",
       num: "04",
       title: "Akademik Özel Ders",
       body1:
@@ -564,8 +564,8 @@ const TR = {
       eyebrow: "MİSYONUMUZ",
       heading: "Sonrası için",
       quote:
-        "“Her adım biliçlidir; böylece öğrenci dağınık bir aktiviteler listesi yerine tutarlı ve güvenilir bir profil oluşturur.”",
-      body: "Pek çok danışmanlık firması yalnızca öğrencilerin kabul almasına odaklanır. Biz daha ötesine bakıyoruz. Pine College Counseling’de, öğrencinin güçlü yönlerini, kişiliğini ve hedeflerini gerçekçi biçimde anlamlandırmak için hem öğrencilerle hem de ebeveynlerle birlikte çalışıyoruz. Buna dayanarak, öğrencileri yalnızca akademik olarak değil, uzun vadede de gerçekten gelişebilecekleri programlarla eşleştiriyoruz.",
+        '"Her adım biliçlidir; böylece öğrenci dağınık bir aktiviteler listesi yerine tutarlı ve güvenilir bir profil oluşturur."',
+      body: "Pek çok danışmanlık firması yalnızca öğrencilerin kabul almasına odaklanır. Biz daha ötesine bakıyoruz. Pine College Counseling'de, öğrencinin güçlü yönlerini, kişiliğini ve hedeflerini gerçekçi biçimde anlamlandırmak için hem öğrencilerle hem de ebeveynlerle birlikte çalışıyoruz. Buna dayanarak, öğrencileri yalnızca akademik olarak değil, uzun vadede de gerçekten gelişebilecekleri programlarla eşleştiriyoruz.",
     },
     approach: {
       eyebrow: "YAKLAŞIMIMIZ",
@@ -584,7 +584,7 @@ const TR = {
         {
           number: "03",
           title: "Uluslararası Deneyim",
-          body: "Kurucu ortaklarımız, Coimbra Grubu’na bağlı üniversitelerden lisansüstü derecelere sahiptir.",
+          body: "Kurucu ortaklarımız, Coimbra Grubu'na bağlı üniversitelerden lisansüstü derecelere sahiptir.",
         },
       ],
     },
@@ -593,7 +593,7 @@ const TR = {
       heading: "Ekibimiz",
       name: "Ekin Gümüş, MSc",
       title: "Klinik Psikoseksolog",
-      bio1: "Avrupa’nın farklı ülkeleri ile Türkiye arasında büyüyen ben, çeşitli eğitim sistemlerini ve akademik yaklaşımları bizzat deneyimleme fırsatı buldum. Yükseköğrenimime Padua Üniversitesi’nde psikoloji lisan sı ile başladım; odak alanım nörobilimdi. Daha sonra Sapienza Roma Üniversitesi Tıp Fakültesi’nde Klinik Psikoseksoloji alanında yüksek lisan sımı tamamladım.",
+      bio1: "Avrupa'nın farklı ülkeleri ile Türkiye arasında büyüyen ben, çeşitli eğitim sistemlerini ve akademik yaklaşımları bizzat deneyimleme fırsatı buldum. Yükseköğrenimime Padua Üniversitesi'nde psikoloji lisan sı ile başladım; odak alanım nörobilimdi. Daha sonra Sapienza Roma Üniversitesi Tıp Fakültesi'nde Klinik Psikoseksoloji alanında yüksek lisan sımı tamamladım.",
       bio2: "Klinik çalışmamın yanı sıra, öğrencileri akademik, kültürel ve kişisel gelişim yolculuklarında destekleyerek uluslararası eğitim sistemleri ve üniversite başvuru süreçleri üzerine yoğunlaşıyorum. Eski bir okul psikoloğu ve üniversite danışmanı olarak yalnızca akademik performansı değil, aynı zamanda öğrencilerin motivasyonunu, kaygısını, aidiyet duygusunu ve gelecek beklentilerini de göz önünde bulunduran bir perspektif geliştirdim.",
       bio3: "Uluslararası üniversite kabul ve yerleştirme süreçlerindeki uygulamalı deneyimim sayesinde farklı eğitim sistemleri, kültürler ve beklentiler arasında köprü kuran bir yaklaşım sunuyorum. Her öğrencinin hikayesinin benzersiz olduğuna inanıyorum; bu nedenle standart modeller yerine her süreci bireysel ihtiyaçlara göre uyarlamayı tercih ediyorum. Ailelerle sürdürülebilir ve sağlıklı iletişimin korunmasının da öğrencinin uzun vadeli gelişiminde kritik bir rol oynadığına inanıyorum.",
       readMore: "Devamını oku",
@@ -613,7 +613,7 @@ const TR = {
         },
         {
           q: "Hangi üniversitelerle çalışıyorsunuz?",
-          a: "Ivy League, Russell Group ve Coimbra Group’a bağlı üniversiteler dahil, 30’dan fazla ülkedeki seçkin kurumlarla güçlü bağlantılarımız bulunmaktadır.",
+          a: "Ivy League, Russell Group ve Coimbra Group'a bağlı üniversiteler dahil, 30'dan fazla ülkedeki seçkin kurumlarla güçlü bağlantılarımız bulunmaktadır.",
         },
         {
           q: "Süreçte ebeveynler yer alabilir mi?",
