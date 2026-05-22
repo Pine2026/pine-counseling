@@ -41,7 +41,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 28 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.65, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-              className="font-heading font-bold text-text-on-dark text-[34px] leading-[40px] lg:text-[56px] lg:leading-[64px] w-full lg:w-[476px]"
+              className="font-heading font-bold text-[34px] leading-[40px] lg:text-[56px] lg:leading-[64px] w-full lg:w-[476px]" style={{ color: "#ff0000" }}
             >
               {t.title.split("\n").map((line, i) => (
                 <span key={i}>
