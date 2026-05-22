@@ -46,7 +46,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${spaceGrotesk.variable} ${dmSans.variable} bg-brand`}>
+    <html lang="en" className={`${spaceGrotesk.variable} ${dmSans.variable}`}>
+      <head>
+        <meta name="theme-color" content="#2e4a3a" />
+      </head>
       <body className="font-body bg-bg-primary antialiased">
         <LanguageProvider>
           <ScrollToTop />
