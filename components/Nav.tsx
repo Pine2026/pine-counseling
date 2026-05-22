@@ -122,10 +122,17 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="fixed top-0 inset-x-0 z-50" style={{ height: "calc(72px + env(safe-area-inset-top, 0px))" }}>
-        {/* Visual background on absolute child — keeps fixed shell transparent so Safari 26 doesn't tint its chrome over the nav */}
-        <div className="absolute inset-0 bg-brand" aria-hidden="true" />
-        <div className="relative z-10 flex items-center justify-between px-6 lg:px-[80px]" style={{ height: 72, marginTop: "env(safe-area-inset-top, 0px)" }}>
+      <nav
+        className="fixed top-0 inset-x-0 z-50 bg-brand"
+        style={{
+          height: "calc(72px + env(safe-area-inset-top, 0px))",
+          paddingTop: "env(safe-area-inset-top, 0px)",
+          WebkitBackfaceVisibility: "hidden",
+          backfaceVisibility: "hidden",
+          transform: "translateZ(0)",
+        }}
+      >
+        <div className="relative z-10 flex items-center justify-between px-6 lg:px-[80px]" style={{ height: 72 }}>
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 flex-shrink-0">
             <img
