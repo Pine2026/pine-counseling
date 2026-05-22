@@ -50,10 +50,12 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#2e4a3a" />
       </head>
-      <body className="font-body bg-bg-primary antialiased">
+      <body className="font-body antialiased">
         <LanguageProvider>
-          <ScrollToTop />
-          {children}
+          <div className="bg-bg-primary min-h-screen">
+            <ScrollToTop />
+            {children}
+          </div>
         </LanguageProvider>
       </body>
     </html>
