@@ -122,8 +122,8 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="fixed top-0 inset-x-0 z-50 bg-brand" style={{ paddingTop: "env(safe-area-inset-top)" }}>
-        <div className="flex items-center justify-between px-6 lg:px-[80px]" style={{ height: 72 }}>
+      <nav className="fixed inset-x-0 z-50 bg-brand" style={{ top: -200, height: 272 }}>
+        <div className="flex items-center justify-between px-6 lg:px-[80px]" style={{ height: 72, marginTop: 200 }}>
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 flex-shrink-0">
             <img
