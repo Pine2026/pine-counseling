@@ -42,7 +42,6 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: "#2e4a3a",
-  viewportFit: "cover",
 };
 
 export default function RootLayout({

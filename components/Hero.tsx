@@ -18,7 +18,7 @@ export default function Hero() {
       {/* Background — mobile */}
       <div className="absolute inset-0 lg:hidden">
         {/* Image starts below the fixed nav (72px) so the very top of the image is the first visible content */}
-        <div className="absolute inset-x-0 bottom-0 hero-bg-top">
+        <div className="absolute inset-x-0 bottom-0 inset-0">
           <Image src={HERO_IMAGE_MOBILE} alt="" fill sizes="100vw" quality={100} className="object-cover object-top" priority fetchPriority="high" />
         </div>
         <div className="absolute inset-0" style={{ background: "rgba(73,137,47,0.2)" }} />
@@ -26,7 +26,7 @@ export default function Hero() {
       </div>
       {/* Background — desktop */}
       <div className="absolute inset-0 hidden lg:block">
-        <div className="absolute inset-x-0 bottom-0 hero-bg-top">
+        <div className="absolute inset-x-0 bottom-0 inset-0">
           <Image src={HERO_IMAGE} alt="" fill sizes="100vw" quality={100} className="object-cover object-top" priority fetchPriority="high" />
         </div>
         <div className="absolute inset-0" style={{ background: "rgba(73,137,47,0.2)" }} />
@@ -34,7 +34,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-end lg:items-center px-6 lg:px-40 pb-10 lg:pb-0 hero-content-pt">
+      <div className="relative z-10 h-full flex items-end lg:items-center px-6 lg:px-40 pb-10 lg:pb-0 pt-6 lg:pt-0">
         <div style={{ maxWidth: 1120, width: "100%", marginLeft: "auto", marginRight: "auto" }}>
           <div className="flex flex-col gap-[16px] lg:gap-[24px] items-start">
             <motion.h1

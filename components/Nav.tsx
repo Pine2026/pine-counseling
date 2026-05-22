@@ -122,7 +122,7 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="fixed top-0 inset-x-0 z-50 bg-brand" style={{ paddingTop: "env(safe-area-inset-top, 0px)" }}>
+      <nav className="sticky top-0 inset-x-0 z-50 bg-brand">
         <div className="flex items-center justify-between px-6 lg:px-[80px]" style={{ height: 72 }}>
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 flex-shrink-0">
@@ -260,7 +260,7 @@ export default function Nav() {
               transition={{ duration: 0.2, ease: "easeOut" }}
               className="fixed lg:hidden flex flex-col"
               style={{
-                top: "calc(env(safe-area-inset-top, 0px) + 88px)",
+                top: 88,
                 right: 16,
                 bottom: 16,
                 width: 243,
