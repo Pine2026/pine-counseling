@@ -111,12 +111,12 @@ img {
 }
 
 .page-hero-pt {
-  padding-top: calc(88px + env(safe-area-inset-top, 0px));
+  padding-top: calc(72px + env(safe-area-inset-top, 0px) + 16px);
 }
 
 @media (min-width: 768px) {
   .page-hero-pt {
-    padding-top: 20px;
+    padding-top: 92px; /* 72px nav + 20px breathing room, no safe area on desktop */
   }
 }
 
