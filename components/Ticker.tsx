@@ -30,7 +30,7 @@ const universitiesTR = [
   "Padova",
   "KU Leuven",
   "TU Munich",
-  "Coimbra Group",
+  "NABA",
 ];
 
 export default function Ticker() {

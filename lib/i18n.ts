@@ -129,7 +129,7 @@ const EN = {
     partnerships: {
       eyebrow: "PARTNERSHIPS",
       heading: "For the Schools",
-      body: "We collaborate with schools to support students in building strong, realistic pathways toward international higher education. Through Pine Counseling Hub, students gain access to curated resources, structured guidance, and ongoing support that complements the school’s existing academic framework.",
+      body: "We collaborate with schools to support students in building strong, realistic pathways toward international higher education. Through Pine College Counseling Hub, students gain access to curated resources, structured guidance, and ongoing support that complements the school’s existing academic framework.",
     },
     hub: {
       eyebrow: "Ecosystem",
@@ -338,7 +338,7 @@ const TR = {
   hero: {
     title: "Üniversite yolculuğunu\nşekillendiriyoruz",
     description:
-      "Pine Counseling, lise öğrencilerine yurt dışında eğitim sürecinin her adımında rehberlik eder. Dünyanın en seçkin üniversitelerine uzman eşliğinde giden, özenle tasar lanmış bir yolculuk.",
+      "Pine College Counseling, lise öğrencilerine yurt dışında eğitim sürecinin her adımında rehberlik eder. Dünyanın en seçkin üniversitelerine uzman eşliğinde giden, özenle tasar lanmış bir yolculuk.",
     cta1: "Danışmanlık Al",
     cta2: "Hizmetleri Keşfet",
     stat1Label: "Ülke / Küresel Ağ",
@@ -365,7 +365,7 @@ const TR = {
   },
   approach: {
     eyebrow: "YAKLAŞIMIMIZ",
-    heading: "Neden Pine Counseling?",
+    heading: "Neden Pine College Counseling?",
     steps: [
       {
         number: "01",
@@ -419,8 +419,8 @@ const TR = {
   },
   founderQuote: {
     quote:
-      "“Uluslararası üniversite danışmanlığının bir itibar sorunu var. Vaatler yapılır, klasörler doldurulur ve öğrenciler kendileri için hiç doğru olmayan programlarda bulunur. Pine Counseling’i kurduk çünkü bu sürecin dürüst olabileceğine ve sonucun gerçekten önem taşıyabileceğine inandık. Hem öğrencilerle hem de ailelerle çalışıyor, öğrencinin gerçekte kim olduğunu anlamak için zaman ayırıyor ve yolları onların yetenekleri, kişilikleri ve uzun vadeli hedefleri etrafında inşa ediyoruz. Kabul almak yalnızca bir başlangıçtır. Biz sonrasının da işe yamasını sağlamak için buradayiz.”",
-    author: "— Pine Counseling",
+      "“Uluslararası üniversite danışmanlığının bir itibar sorunu var. Vaatler yapılır, klasörler doldurulur ve öğrenciler kendileri için hiç doğru olmayan programlarda bulunur. Pine College Counseling’i kurduk çünkü bu sürecin dürüst olabileceğine ve sonucun gerçekten önem taşıyabileceğine inandık. Hem öğrencilerle hem de ailelerle çalışıyor, öğrencinin gerçekte kim olduğunu anlamak için zaman ayırıyor ve yolları onların yetenekleri, kişilikleri ve uzun vadeli hedefleri etrafında inşa ediyoruz. Kabul almak yalnızca bir başlangıçtır. Biz sonrasının da işe yamasını sağlamak için buradayiz.”",
+    author: "— Pine College Counseling",
   },
   ctaBanner: {
     eyebrow: "SONRAKİ ADIM",
@@ -431,7 +431,7 @@ const TR = {
   footer: {
     pagesLabel: "Sayfalar",
     contactLabel: "İletişim",
-    copyright: "© 2026 Pine Counseling. Akademik Küratör. Tüm hakları saklıdır.",
+    copyright: "© 2026 Pine College Counseling. Akademik Küratör. Tüm hakları saklıdır.",
     pageLinks: [
       { label: "Ana Sayfa", href: "/" },
       { label: "Hizmetler", href: "/services" },
@@ -453,7 +453,7 @@ const TR = {
     partnerships: {
       eyebrow: "ORTAKLIKLAR",
       heading: "Okullar İçin",
-      body: "Öğrencilerin uluslararası yükseköğrenime giden güçlü ve gerçekçi yollar oluşturmasını desteklemek için okullarla iş birliği yapıyoruz. Pine Counseling Hub aracılığıyla öğrenciler, okulun mevcut akademik çerçevesini tamamlayan özenle seçilmiş kaynaklara, yapılandırılmış rehberliğe ve sürekli desteğe erişim kazanır.",
+      body: "Öğrencilerin uluslararası yükseköğrenime giden güçlü ve gerçekçi yollar oluşturmasını desteklemek için okullarla iş birliği yapıyoruz. Pine College Counseling Hub aracılığıyla öğrenciler, okulun mevcut akademik çerçevesini tamamlayan özenle seçilmiş kaynaklara, yapılandırılmış rehberliğe ve sürekli desteğe erişim kazanır.",
     },
     hub: {
       eyebrow: "Ekosistem",
@@ -565,7 +565,7 @@ const TR = {
       heading: "Sonrası için",
       quote:
         "“Her adım biliçlidir; böylece öğrenci dağınık bir aktiviteler listesi yerine tutarlı ve güvenilir bir profil oluşturur.”",
-      body: "Pek çok danışmanlık firması yalnızca öğrencilerin kabul almasına odaklanır. Biz daha ötesine bakıyoruz. Pine Counseling’de, öğrencinin güçlü yönlerini, kişiliğini ve hedeflerini gerçekçi biçimde anlamlandırmak için hem öğrencilerle hem de ebeveynlerle birlikte çalışıyoruz. Buna dayanarak, öğrencileri yalnızca akademik olarak değil, uzun vadede de gerçekten gelişebilecekleri programlarla eşleştiriyoruz.",
+      body: "Pek çok danışmanlık firması yalnızca öğrencilerin kabul almasına odaklanır. Biz daha ötesine bakıyoruz. Pine College Counseling’de, öğrencinin güçlü yönlerini, kişiliğini ve hedeflerini gerçekçi biçimde anlamlandırmak için hem öğrencilerle hem de ebeveynlerle birlikte çalışıyoruz. Buna dayanarak, öğrencileri yalnızca akademik olarak değil, uzun vadede de gerçekten gelişebilecekleri programlarla eşleştiriyoruz.",
     },
     approach: {
       eyebrow: "YAKLAŞIMIMIZ",
