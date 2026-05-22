@@ -1,9 +1,25 @@
 "use client";
 
+import { useLanguage } from "@/contexts/LanguageContext";
+
 const ICON_CIRCLE = "/images/ticker-circle.svg";
 const ICON_DIAMOND = "/images/ticker-diamond.svg";
 
-const universities = [
+const universitiesEN = [
+  "Harvard",
+  "Oxford",
+  "MIT",
+  "Sapienza Roma",
+  "Amsterdam",
+  "Sciences Po",
+  "Edinburgh",
+  "Padova",
+  "KU Leuven",
+  "TU Munich",
+  "NABA",
+];
+
+const universitiesTR = [
   "Harvard",
   "Oxford",
   "MIT",
@@ -18,6 +34,8 @@ const universities = [
 ];
 
 export default function Ticker() {
+  const { lang } = useLanguage();
+  const universities = lang === "EN" ? universitiesEN : universitiesTR;
   // Two full copies for seamless loop — animation slides to -50%
   const items = [...universities, ...universities];
 

@@ -82,8 +82,8 @@ export default function Ecosystem() {
           {cards.map((card, i) => (
             <motion.div
               key={i}
-              initial={{ opacity: 0, y: 32, scale: 0.95 }}
-              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              initial={{ opacity: 0, y: 32 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.55, delay: i * 0.1, ease: [0.22, 1, 0.36, 1] }}
               className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col gap-[8px]"

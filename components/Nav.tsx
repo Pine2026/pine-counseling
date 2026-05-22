@@ -136,7 +136,7 @@ export default function Nav() {
               className="font-heading font-bold text-text-on-dark"
               style={{ fontSize: 18, lineHeight: "22px" }}
             >
-              Pine<br />Counseling
+              {lang === "EN" ? <>Pine College<br />Counseling</> : <>Pine<br />Counseling</>}
             </span>
           </Link>
 

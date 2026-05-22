@@ -109,6 +109,9 @@ const config: Config = {
       backdropBlur: {
         sm: "4px",
       },
+      screens: {
+        lg: "1025px",
+      },
     },
   },
   plugins: [],

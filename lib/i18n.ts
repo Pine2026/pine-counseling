@@ -14,7 +14,7 @@ const EN = {
   hero: {
     title: "We Shape Your\nUniversity Journey",
     description:
-      "Pine Counseling guides high school students through every step of studying abroad. A curated, expert-led journey to the world’s finest universities.",
+      "Pine College Counseling guides high school students through every step of studying abroad. A curated, expert-led journey to the world’s finest universities.",
     cta1: "Book a Consultation",
     cta2: "Explore Services",
     stat1Label: "Countries / Global Reach",
@@ -41,7 +41,7 @@ const EN = {
   },
   approach: {
     eyebrow: "OUR APPROACH",
-    heading: "Why Pine Counseling?",
+    heading: "Why Pine College Counseling?",
     steps: [
       {
         number: "01",
@@ -95,8 +95,8 @@ const EN = {
   },
   founderQuote: {
     quote:
-      "“International university consulting has a reputation problem. Promises are made, folders are filled, and students end up in programs that were never really right for them. We started Pine Counseling because we believed the process could be honest, and the outcome could actually matter. We work with both students and parents, take the time to understand who the student really is, and build paths around their abilities, personality, and long-term goals. Getting in is just the beginning. We’re here to make sure what comes after works too.”",
-    author: "— Pine Counseling",
+      “”International university consulting has a reputation problem. Promises are made, folders are filled, and students end up in programs that were never really right for them. We started Pine College Counseling because we believed the process could be honest, and the outcome could actually matter. We work with both students and parents, take the time to understand who the student really is, and build paths around their abilities, personality, and long-term goals. Getting in is just the beginning. We’re here to make sure what comes after works too.””,
+    author: “— Pine College Counseling”,
   },
   ctaBanner: {
     eyebrow: "NEXT STEP",
@@ -107,7 +107,7 @@ const EN = {
   footer: {
     pagesLabel: "Pages",
     contactLabel: "Contact",
-    copyright: "© 2026 Pine Counseling. Academic Curator. All rights reserved.",
+    copyright: "© 2026 Pine College Counseling. Academic Curator. All rights reserved.",
     pageLinks: [
       { label: "Home", href: "/" },
       { label: "Services", href: "/services" },
@@ -236,7 +236,7 @@ const EN = {
       heading: "For what comes after.",
       quote:
         "“Every step is intentional; so the student builds a consistent and credible profile, rather than a scattered list of activities.”",
-      body: "Many consulting firms focus only on getting students admitted. We look beyond that. At Pine Counseling, we work with both students and parents to develop a realistic understanding of the student, their strengths, personality, and goals. Based on this, we match them with programs where they can truly thrive, not only academically, but in the long run as well.",
+      body: "Many consulting firms focus only on getting students admitted. We look beyond that. At Pine College Counseling, we work with both students and parents to develop a realistic understanding of the student, their strengths, personality, and goals. Based on this, we match them with programs where they can truly thrive, not only academically, but in the long run as well.",
     },
     approach: {
       eyebrow: "OUR APPROACH",
@@ -255,7 +255,7 @@ const EN = {
         {
           number: "03",
           title: "International Experience",
-          body: "Our founding partners hold postgraduate degrees from universities affiliated with the Coimbra Group.",
+          body: "Our founder holds postgraduate degrees from universities affiliated with the Coimbra Group.",
         },
       ],
     },

@@ -62,12 +62,11 @@ export default function Services() {
         <div className="flex flex-col md:flex-row gap-[16px] md:gap-[24px]">
           {/* Box 1 */}
           <motion.div
-            initial={{ opacity: 0, x: -40, scale: 0.96 }}
-            whileInView={{ opacity: 1, x: 0, scale: 1 }}
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
-            className="relative overflow-hidden rounded-md border-[1.5px] border-border-strong flex flex-col justify-end shadow-[4px_8px_10px_3px_rgba(0,0,0,0.25)] w-full aspect-square md:w-[548px] md:h-[548px] md:aspect-auto flex-shrink-0"
-            style={{ padding: 16 }}
+            className="relative overflow-hidden rounded-md border-[1.5px] border-border-strong flex flex-col justify-end shadow-[4px_8px_10px_3px_rgba(0,0,0,0.25)] w-full aspect-square md:w-[548px] md:h-[548px] md:aspect-auto flex-shrink-0 p-16 md:p-40"
           >
             <div
               className="absolute inset-0 rounded-md"
@@ -104,12 +103,12 @@ export default function Services() {
           <div className="flex-1 flex flex-col gap-[16px] md:gap-[24px]">
             {/* Box 2 */}
             <motion.div
-              initial={{ opacity: 0, x: 40, scale: 0.96 }}
-              whileInView={{ opacity: 1, x: 0, scale: 1 }}
+              initial={{ opacity: 0, x: 40 }}
+              whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.7, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
-              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col justify-between md:h-[262px]"
-              style={{ padding: 20, gap: 12 }}
+              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col justify-between md:h-[262px] p-20 md:p-40"
+              style={{ gap: 12 }}
             >
               <div className="flex flex-col gap-[12px] md:gap-[16px]">
                 <p className="font-heading font-bold text-text-primary text-[18px] md:text-[28px]" style={{ lineHeight: "1.2" }}>
@@ -126,12 +125,12 @@ export default function Services() {
 
             {/* Box 3 */}
             <motion.div
-              initial={{ opacity: 0, x: 40, scale: 0.96 }}
-              whileInView={{ opacity: 1, x: 0, scale: 1 }}
+              initial={{ opacity: 0, x: 40 }}
+              whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.7, delay: 0.24, ease: [0.22, 1, 0.36, 1] }}
-              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col justify-between md:h-[262px]"
-              style={{ padding: 20, gap: 12 }}
+              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col justify-between md:h-[262px] p-20 md:p-40"
+              style={{ gap: 12 }}
             >
               <div className="flex flex-col gap-[12px] md:gap-[16px]">
                 <p className="font-heading font-bold text-text-primary text-[18px] md:text-[28px]" style={{ lineHeight: "1.2" }}>
