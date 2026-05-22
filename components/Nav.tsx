@@ -122,8 +122,8 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="fixed inset-x-0 z-50 bg-brand" style={{ top: -200, height: 272 }}>
-        <div className="flex items-center justify-between px-6 lg:px-[80px]" style={{ height: 72, marginTop: 200 }}>
+      <nav className="fixed top-0 inset-x-0 z-50 bg-brand" style={{ paddingTop: "env(safe-area-inset-top, 0px)" }}>
+        <div className="flex items-center justify-between px-6 lg:px-[80px]" style={{ height: 72 }}>
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 flex-shrink-0">
             <img
@@ -133,8 +133,8 @@ export default function Nav() {
               style={{ width: 24, height: 38 }}
             />
             <span
-              className="font-heading font-bold"
-              style={{ fontSize: 18, lineHeight: "22px", color: "#ff0000" }}
+              className="font-heading font-bold text-text-on-dark"
+              style={{ fontSize: 18, lineHeight: "22px" }}
             >
               Pine<br />Counseling
             </span>
@@ -260,7 +260,7 @@ export default function Nav() {
               transition={{ duration: 0.2, ease: "easeOut" }}
               className="fixed lg:hidden flex flex-col"
               style={{
-                top: 88,
+                top: "calc(env(safe-area-inset-top, 0px) + 88px)",
                 right: 16,
                 bottom: 16,
                 width: 243,
