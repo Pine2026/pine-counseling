@@ -129,7 +129,7 @@ const EN = {
     partnerships: {
       eyebrow: "PARTNERSHIPS",
       heading: "For the Schools",
-      body: "We collaborate with schools to support students in building strong, realistic pathways toward international higher education. Through Pine College Counseling Hub, students gain access to curated resources, structured guidance, and ongoing support that complements the school's existing academic framework.",
+      body: "We collaborate with schools to support students in building strong, realistic pathways toward international higher education. Through Pine Education Hub, students gain access to curated resources, structured guidance, and ongoing support that complements the school's existing academic framework.",
     },
     hub: {
       eyebrow: "Ecosystem",
@@ -157,15 +157,15 @@ const EN = {
         {
           bold: "Parent interview (90 min): ",
           normal:
-            "financial expectations, educational background, insights on the student. Alongside a structured assessment of the family's financial capacity to ensure all recommended universities align realistically with the defined budget.",
+            "Financial expectations, educational background, insights on the student. Alongside a structured assessment of the family's financial capacity to ensure all recommended universities align realistically with the defined budget.",
         },
         {
           bold: "Individual student interview (60-80 min): ",
-          normal: "academic interests, career goals and motivations are explored.",
+          normal: "Academic interests, career goals and motivations are explored.",
         },
         {
           bold: "Psychometric assessment: ",
-          normal: "the student's cognitive abilities, interests, personality and learning style are examined.",
+          normal: "The student's cognitive abilities, interests, personality and learning style are examined.",
         },
       ],
       outcomeLabel: "Outcome:",
@@ -194,7 +194,7 @@ const EN = {
         "Personalized documents (motivation letters, CVs) and suggestions for building the correct portfolio are part of this package, not Package 1. If Package 1 has already been purchased separately, the €700 paid will be deducted from the total package fee.",
     },
     pkg3: {
-      tag: "Intensive support in a short time.",
+      tag: "Intensive support in a short time",
       price: "€2000",
       num: "03",
       title: "Last Call Support",
@@ -338,7 +338,7 @@ const TR = {
   hero: {
     title: "Üniversite yolculuğunu\nşekillendiriyoruz",
     description:
-      "Pine College Counseling, lise öğrencilerine yurt dışında eğitim sürecinin her adımında rehberlik eder. Dünyanın en seçkin üniversitelerine uzman eşliğinde giden, özenle tasar lanmış bir yolculuk.",
+      "Pine College Counseling, lise öğrencilerine yurt dışında eğitim sürecinin her adımında rehberlik eder. Dünyanın en seçkin üniversitelerine uzman eşliğinde giden, özenle tasarlanmış bir yolculuk.",
     cta1: "Danışmanlık Al",
     cta2: "Hizmetleri Keşfet",
     stat1Label: "Ülke / Küresel Ağ",
@@ -370,7 +370,7 @@ const TR = {
       {
         number: "01",
         title: "Kişiselletirilmiş Strateji",
-        body: "Standart şablonların ötesine geçiyoruz. Her yol haritası, sizin akademik profiliniz, güçlü yönleriniz ve hedefleriniz doğrultusunda özgün biçimde tasar lanır.",
+        body: "Standart şablonların ötesine geçiyoruz. Her yol haritası, sizin akademik profiliniz, güçlü yönleriniz ve hedefleriniz doğrultusunda özgün biçimde tasarlanır.",
       },
       {
         number: "02",
@@ -389,7 +389,7 @@ const TR = {
     heading1: "Sizin İçin",
     heading2: "Tasarlandı",
     description:
-      "Kestirme yollara ya da varsayımlara inanmıyoruz. Odak noktasımız, kabul ötesinde bir gelecek inşa etmektir.",
+      "Kestirme yollara ya da varsayımlara inanmıyoruz. Odak noktamız, kabul ötesinde bir gelecek inşa etmektir.",
     cards: [
       {
         title: "Doğru Uyum",
@@ -419,13 +419,13 @@ const TR = {
   },
   founderQuote: {
     quote:
-      '"Uluslararası üniversite danışmanlığının bir itibar sorunu var. Vaatler yapılır, klasörler doldurulur ve öğrenciler kendileri için hiç doğru olmayan programlarda bulunur. Pine College Counseling\'i kurduk çünkü bu sürecin dürüst olabileceğine ve sonucun gerçekten önem taşıyabileceğine inandık. Hem öğrencilerle hem de ailelerle çalışıyor, öğrencinin gerçekte kim olduğunu anlamak için zaman ayırıyor ve yolları onların yetenekleri, kişilikleri ve uzun vadeli hedefleri etrafında inşa ediyoruz. Kabul almak yalnızca bir başlangıçtır. Biz sonrasının da işe yamasını sağlamak için buradayiz."',
+      '"Uluslararası üniversite danışmanlığının bir itibar sorunu var. Vaatler yapılır, klasörler doldurulur ve öğrenciler kendilerini hiç doğru olmayan programlarda bulur. Pine College Counseling\'i kurduk çünkü bu sürecin dürüst olabileceğine ve sonucun gerçekten önem taşıyabileceğine inandık. Hem öğrencilerle hem de ailelerle çalışıyor, öğrencinin gerçekte kim olduğunu anlamak için zaman ayırıyor ve yolları onların yetenekleri, kişilikleri ve uzun vadeli hedefleri etrafında inşa ediyoruz. Kabul almak yalnızca bir başlangıçtır. Biz sonrasının da işe yaramasını sağlamak için buradayız."',
     author: "— Pine College Counseling",
   },
   ctaBanner: {
     eyebrow: "SONRAKİ ADIM",
     heading: "Sıradaki Adımın Ne Olduğundan Emin Değil misin?",
-    body: "Ücetsiz bir danışmanlık randevusu al ve geleceğini birlikte şekillendırelim",
+    body: "Ücretsiz bir danışmanlık randevusu al ve geleceğini birlikte şekillendirelim",
     button: "Stratejini Keşfet",
   },
   footer: {
@@ -453,7 +453,7 @@ const TR = {
     partnerships: {
       eyebrow: "ORTAKLIKLAR",
       heading: "Okullar İçin",
-      body: "Öğrencilerin uluslararası yükseköğrenime giden güçlü ve gerçekçi yollar oluşturmasını desteklemek için okullarla iş birliği yapıyoruz. Pine College Counseling Hub aracılığıyla öğrenciler, okulun mevcut akademik çerçevesini tamamlayan özenle seçilmiş kaynaklara, yapılandırılmış rehberliğe ve sürekli desteğe erişim kazanır.",
+      body: "Öğrencilerin uluslararası yükseköğrenime giden güçlü ve gerçekçi yollar oluşturmasını desteklemek için okullarla iş birliği yapıyoruz. Pine Education Hub aracılığıyla öğrenciler, okulun mevcut akademik çerçevesini tamamlayan özenle seçilmiş kaynaklara, yapılandırılmış rehberliğe ve sürekli desteğe erişim kazanır.",
     },
     hub: {
       eyebrow: "Ekosistem",
@@ -481,21 +481,21 @@ const TR = {
         {
           bold: "Veli görüşmesi (90 dk): ",
           normal:
-            "mali beklentiler, eğitim geçmişi, öğrenci hakkında görüşler. Önerilen tüm üniversitelerin belirlenen bütçeyle gerçekçi biçimde örtüştüğünden emin olmak için ailenin finansal kapasitesinin yapılandırılmış bir değerlendirmesi eşliğinde.",
+            "Mali beklentiler, eğitim geçmişi, öğrenci hakkında görüşler. Önerilen tüm üniversitelerin belirlenen bütçeyle gerçekçi biçimde örtüştüğünden emin olmak için ailenin finansal kapasitesinin yapılandırılmış bir değerlendirmesi eşliğinde.",
         },
         {
           bold: "Bireysel öğrenci görüşmesi (60-80 dk): ",
-          normal: "akademik ilgi alanları, kariyer hedefleri ve motivasyonlar ele alınır.",
+          normal: "Akademik ilgi alanları, kariyer hedefleri ve motivasyonlar ele alınır.",
         },
         {
           bold: "Psikometrik değerlendirme: ",
           normal:
-            "öğrencinin bilişsel yetenekleri, ilgi alanları, kişiliği ve öğrenme stili incelenir.",
+            "Öğrencinin bilişsel yetenekleri, ilgi alanları, kişiliği ve öğrenme stili incelenir.",
         },
       ],
       outcomeLabel: "Sonuç:",
       outcome:
-        "Değerlendirmemiz sonucunda 5–7 özelleştirilmiş üniversite programı seçeneği sunacağız. Öğrencinin yetenekleri, akademik geçmişi, kariyer hedefleri ve mali kısıtlamalar arasında gerçekçi bir uyum sağlanır. Fazla hırsıl veya yanlış hizalanmış başvuruların önüne geçilir.",
+        "Değerlendirmemiz sonucunda 5–7 özelleştirilmiş üniversite programı seçeneği sunacağız. Öğrencinin yetenekleri, akademik geçmişi, kariyer hedefleri ve mali kısıtlamalar arasında gerçekçi bir uyum sağlanır. Fazla hırslı veya yanlış hizalanmış başvuruların önüne geçilir.",
     },
     pkg2: {
       tag: "Yüksek hedefli öğrenciler için",
@@ -504,10 +504,10 @@ const TR = {
       title: "Strateji & Başvuru Desteği",
       intro: '"Stratejik ve destekleyici bir yaklaşımla, hayalinizdeki üniversitelere kabul alın."',
       bullets: [
-        { normal: "Paket 1'deki her şey, artı tam strateji ve başvuru desteği." },
+        { normal: "Paket 1'deki her şeye ek olarak tam strateji ve başvuru desteği." },
         {
           normal:
-            "Uygunluk ve rekabet gürünü sağlamak için farklı sistemlerde (AP, A-Levels, IB, Avrupa ulusal müfredatları ve Türk sistemi) eğitim planlaması.",
+            "Uygunluk ve rekabet görünürlüğünü sağlamak için farklı sistemlerde (AP, A-Levels, IB, Avrupa ulusal müfredatları ve Türk sistemi) eğitim planlaması.",
         },
         {
           normal:
@@ -522,7 +522,7 @@ const TR = {
         "Kişiselletirilmiş belgeler (motivasyon mektupları, CV'ler) ve doğru portföyü oluşturmaya yönelik öneriler bu paketin parçasıdır, Paket 1'in değil. Paket 1 ayrı olarak daha önce satın alınmışsa, ödenen €700, toplam paket ücretinden düşülecektir.",
     },
     pkg3: {
-      tag: "Kısa sürede yoğun destek.",
+      tag: "Kısa sürede yoğun destek",
       price: "€2000",
       num: "03",
       title: "Son Aşama Desteği",
@@ -549,7 +549,7 @@ const TR = {
       num: "04",
       title: "Akademik Özel Ders",
       body1:
-        "Öğrencileri, AP, A-Levels ve IB gibi uluslararası programları uzun yıllar boyunca öğretmiş deneyimli eğitimcilerle bir araya getiriyoruz. Dersler, her öğrencinin akademik hedefleri, mevcut seviyesi ve başvuru planına göre bireyselletirilmiş destek şeklinde tasar lanır.",
+        "Öğrencileri, AP, A-Levels ve IB gibi uluslararası programları uzun yıllar boyunca öğretmiş deneyimli eğitimcilerle bir araya getiriyoruz. Dersler, her öğrencinin akademik hedefleri, mevcut seviyesi ve başvuru planına göre bireyselletirilmiş destek şeklinde tasarlanır.",
       body2:
         "Akademik destek almak istediğiniz dersleri ve takip ettiğiniz müfredatı belirterek bizimle iletişime geçebilirsiniz.",
     },
@@ -558,13 +558,13 @@ const TR = {
     hero: {
       eyebrow: "HAKKIMIZDA",
       title: "Bu Yolculuğun\nArkasındaki Ekip",
-      description: "Yardım etmek için buradayiz",
+      description: "Yardım etmek için buradayız",
     },
     mission: {
       eyebrow: "MİSYONUMUZ",
       heading: "Sonrası için",
       quote:
-        '"Her adım biliçlidir; böylece öğrenci dağınık bir aktiviteler listesi yerine tutarlı ve güvenilir bir profil oluşturur."',
+        '"Her adım bilinçlidir; böylece öğrenci dağınık bir aktiviteler listesi yerine tutarlı ve güvenilir bir profil oluşturur."',
       body: "Pek çok danışmanlık firması yalnızca öğrencilerin kabul almasına odaklanır. Biz daha ötesine bakıyoruz. Pine College Counseling'de, öğrencinin güçlü yönlerini, kişiliğini ve hedeflerini gerçekçi biçimde anlamlandırmak için hem öğrencilerle hem de ebeveynlerle birlikte çalışıyoruz. Buna dayanarak, öğrencileri yalnızca akademik olarak değil, uzun vadede de gerçekten gelişebilecekleri programlarla eşleştiriyoruz.",
     },
     approach: {
@@ -574,7 +574,7 @@ const TR = {
         {
           number: "01",
           title: "Öğrenciden Başlıyoruz",
-          body: "Kısa bir liste değil, öğrenciden başlıyoruz. Her adım, bireyin profiline göre şekillendırilir.",
+          body: "Kısa bir liste değil, öğrenciden başlıyoruz. Her adım, bireyin profiline göre şekillendirilir.",
         },
         {
           number: "02",
@@ -593,7 +593,7 @@ const TR = {
       heading: "Ekibimiz",
       name: "Ekin Gümüş, MSc",
       title: "Klinik Psikoseksolog",
-      bio1: "Avrupa'nın farklı ülkeleri ile Türkiye arasında büyüyen ben, çeşitli eğitim sistemlerini ve akademik yaklaşımları bizzat deneyimleme fırsatı buldum. Yükseköğrenimime Padua Üniversitesi'nde psikoloji lisan sı ile başladım; odak alanım nörobilimdi. Daha sonra Sapienza Roma Üniversitesi Tıp Fakültesi'nde Klinik Psikoseksoloji alanında yüksek lisan sımı tamamladım.",
+      bio1: "Avrupa'nın farklı ülkeleri ile Türkiye arasında büyüyen ben, çeşitli eğitim sistemlerini ve akademik yaklaşımları bizzat deneyimleme fırsatı buldum. Yükseköğrenimime Padua Üniversitesi'nde psikoloji lisansı ile başladım; odak alanım nörobilimdi. Daha sonra Sapienza Roma Üniversitesi Tıp Fakültesi'nde Klinik Psikoseksoloji alanında yüksek lisansımı tamamladım.",
       bio2: "Klinik çalışmamın yanı sıra, öğrencileri akademik, kültürel ve kişisel gelişim yolculuklarında destekleyerek uluslararası eğitim sistemleri ve üniversite başvuru süreçleri üzerine yoğunlaşıyorum. Eski bir okul psikoloğu ve üniversite danışmanı olarak yalnızca akademik performansı değil, aynı zamanda öğrencilerin motivasyonunu, kaygısını, aidiyet duygusunu ve gelecek beklentilerini de göz önünde bulunduran bir perspektif geliştirdim.",
       bio3: "Uluslararası üniversite kabul ve yerleştirme süreçlerindeki uygulamalı deneyimim sayesinde farklı eğitim sistemleri, kültürler ve beklentiler arasında köprü kuran bir yaklaşım sunuyorum. Her öğrencinin hikayesinin benzersiz olduğuna inanıyorum; bu nedenle standart modeller yerine her süreci bireysel ihtiyaçlara göre uyarlamayı tercih ediyorum. Ailelerle sürdürülebilir ve sağlıklı iletişimin korunmasının da öğrencinin uzun vadeli gelişiminde kritik bir rol oynadığına inanıyorum.",
       readMore: "Devamını oku",
@@ -629,7 +629,7 @@ const TR = {
   contactPage: {
     hero: {
       eyebrow: "İLETİŞİM",
-      title: "Yolunu Birlikte\nŞekillendırelim",
+      title: "Yolunu Birlikte\nŞekillendirelim",
       description: "Size en uygun iletişim yöntemini seçin. Genellikle 24 saat içinde yanıt veriyoruz.",
     },
     form: {
@@ -641,7 +641,7 @@ const TR = {
       message: "Mesaj",
       messagePlaceholder: "Hedeflerinizden bize bahsedin…",
       submit: "Mesaj Gönder",
-      disclaimer: "Herhangi bir taahhüt gerekmez",
+      disclaimer: "HERHANGİ BİR TAAHHÜT GEREKMEZ",
       successHeading: "Mesaj gönderildi!",
       successBody: "24 saat içinde sizinle iletişime geçeceğiz.",
       successFallback: "E-posta uygulamanız açılmadıysa bize doğrudan ulaşabilirsiniz:",
