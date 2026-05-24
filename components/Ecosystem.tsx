@@ -86,7 +86,7 @@ export default function Ecosystem() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.55, delay: i * 0.1, ease: [0.22, 1, 0.36, 1] }}
-              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col gap-[8px]"
+              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col gap-[8px]"
               style={{ width: "calc(50% - 4px)", padding: 12 }}
             >
               <span style={{ alignSelf: "flex-start", display: "inline-flex", flexShrink: 0 }}>
@@ -110,7 +110,7 @@ export default function Ecosystem() {
                   whileInView={{ opacity: 1, y: 0, scale: 1 }}
                   viewport={{ once: true, margin: "-40px" }}
                   transition={{ duration: 0.55, delay: (rowIdx * 3 + i) * 0.1, ease: [0.22, 1, 0.36, 1] }}
-                  className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col gap-[8px]"
+                  className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col gap-[8px]"
                   style={{ flex: 1, padding: "24px 32px" }}
                 >
                   <span style={{ alignSelf: "flex-start", display: "inline-flex", flexShrink: 0 }}>

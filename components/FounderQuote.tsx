@@ -31,7 +31,7 @@ export default function FounderQuote() {
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col items-center w-full"
+          className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col items-center w-full"
           style={{ gap: 24, padding: "32px 24px" }}
         >
           <p

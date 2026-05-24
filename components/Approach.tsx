@@ -67,7 +67,7 @@ export default function Approach({
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.6, delay: i * 0.12, ease: [0.22, 1, 0.36, 1] }}
-              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col lg:flex-row lg:items-center overflow-hidden p-5 gap-2 lg:px-32 lg:py-6 lg:gap-6"
+              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col lg:flex-row lg:items-center overflow-hidden p-5 gap-2 lg:px-32 lg:py-6 lg:gap-6"
             >
               {/* Mobile: number + title in one row */}
               <div className="flex items-center gap-[14px] lg:contents">

@@ -78,7 +78,7 @@ export default function AboutPage() {
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: true, margin: "-40px" }}
             transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-            className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col items-center gap-[24px] lg:gap-[40px] text-center w-full"
+            className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col items-center gap-[24px] lg:gap-[40px] text-center w-full"
             style={{ padding: "32px 24px" }}
           >
             <p
@@ -142,7 +142,7 @@ export default function AboutPage() {
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: true, margin: "-40px" }}
             transition={{ duration: 0.7, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-            className="drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col lg:flex-row items-stretch w-full"
+            className="shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col lg:flex-row items-stretch w-full"
           >
             {/* Photo */}
             <div className="bg-bg-secondary border-[1.5px] border-border-strong rounded-t-md lg:rounded-tl-md lg:rounded-tr-none lg:rounded-bl-md lg:rounded-br-none overflow-hidden flex-shrink-0 relative h-[220px] lg:h-auto lg:w-[306px]">

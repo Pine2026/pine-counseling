@@ -53,7 +53,7 @@ export default function CTABanner({ bgPattern = DEFAULT_PATTERN }: CTABannerProp
           </p>
           <Link
             href="/contact"
-            className="inline-block bg-bg-primary text-brand font-body font-bold rounded-xs drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] hover:bg-bg-secondary transition-colors duration-150"
+            className="inline-block bg-bg-primary text-brand font-body font-bold rounded-xs shadow-[4px_8px_5px_rgba(0,0,0,0.25)] hover:bg-bg-secondary transition-colors duration-150"
             style={{ fontSize: 16, padding: "8px 16px" }}
           >
             {t.button}

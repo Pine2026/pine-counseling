@@ -67,7 +67,7 @@ export default function Hero() {
             >
               <Link
                 href="/contact"
-                className="inline-block bg-bg-primary text-brand font-body font-bold rounded-xs drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] hover:bg-bg-secondary transition-colors duration-150 text-[14px] lg:text-[20px]"
+                className="inline-block bg-bg-primary text-brand font-body font-bold rounded-xs shadow-[4px_8px_5px_rgba(0,0,0,0.25)] hover:bg-bg-secondary transition-colors duration-150 text-[14px] lg:text-[20px]"
                 style={{ padding: "8px 14px" }}
               >
                 {t.cta1}

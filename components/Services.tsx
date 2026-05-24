@@ -107,7 +107,7 @@ export default function Services() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.7, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
-              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col justify-between lg:h-[262px] p-20 lg:p-40"
+              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col justify-between lg:h-[262px] p-20 lg:p-40"
               style={{ gap: 12 }}
             >
               <div className="flex flex-col gap-[12px] lg:gap-[16px]">
@@ -129,7 +129,7 @@ export default function Services() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.7, delay: 0.24, ease: [0.22, 1, 0.36, 1] }}
-              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col justify-between lg:h-[262px] p-20 lg:p-40"
+              className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col justify-between lg:h-[262px] p-20 lg:p-40"
               style={{ gap: 12 }}
             >
               <div className="flex flex-col gap-[12px] lg:gap-[16px]">

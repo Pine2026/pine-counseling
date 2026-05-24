@@ -50,7 +50,7 @@ const contactMethods = [
 ];
 
 const inputClass =
-  "w-full bg-bg-primary border border-brand rounded-xs drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] font-body text-text-primary placeholder:text-text-primary/40 focus:outline-none focus:bg-bg-secondary [&:not(:placeholder-shown)]:bg-bg-secondary transition-colors duration-150";
+  "w-full bg-bg-primary border border-brand rounded-xs shadow-[4px_8px_5px_rgba(0,0,0,0.25)] font-body text-text-primary placeholder:text-text-primary/40 focus:outline-none focus:bg-bg-secondary [&:not(:placeholder-shown)]:bg-bg-secondary transition-colors duration-150";
 
 export default function ContactPage() {
   const [form, setForm] = useState({ name: "", subject: "", message: "" });
@@ -122,7 +122,7 @@ export default function ContactPage() {
 
             {submitted ? (
               <div
-                className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col items-center justify-center gap-[16px] text-center"
+                className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col items-center justify-center gap-[16px] text-center"
                 style={{ padding: 40, minHeight: 200 }}
               >
                 <p className="font-heading font-bold text-text-primary" style={{ fontSize: 20 }}>
@@ -192,7 +192,7 @@ export default function ContactPage() {
                 <div className="flex flex-col gap-[16px] items-start">
                   <button
                     type="submit"
-                    className="bg-brand text-text-on-dark font-body font-bold rounded-xs drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] hover:opacity-90 transition-opacity"
+                    className="bg-brand text-text-on-dark font-body font-bold rounded-xs shadow-[4px_8px_5px_rgba(0,0,0,0.25)] hover:opacity-90 transition-opacity"
                     style={{ fontSize: 18, paddingLeft: 28, paddingRight: 28, paddingTop: 12, paddingBottom: 12 }}
                   >
                     {tp.form.submit}

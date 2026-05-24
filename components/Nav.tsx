@@ -217,7 +217,7 @@ export default function Nav() {
 
             <Link
               href="/contact"
-              className="inline-flex items-center bg-bg-primary text-brand font-body font-bold rounded-xs drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] hover:bg-bg-secondary transition-colors duration-150 whitespace-nowrap"
+              className="inline-flex items-center bg-bg-primary text-brand font-body font-bold rounded-xs shadow-[4px_8px_5px_rgba(0,0,0,0.25)] hover:bg-bg-secondary transition-colors duration-150 whitespace-nowrap"
               style={{ height: 37, paddingLeft: 16, paddingRight: 16, fontSize: 16 }}
             >
               {t.cta}
@@ -228,7 +228,7 @@ export default function Nav() {
           <div className="lg:hidden flex items-center gap-3">
             <Link
               href="/contact"
-              className="inline-flex items-center bg-bg-primary text-brand font-body font-bold rounded-xs drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] whitespace-nowrap"
+              className="inline-flex items-center bg-bg-primary text-brand font-body font-bold rounded-xs shadow-[4px_8px_5px_rgba(0,0,0,0.25)] whitespace-nowrap"
               style={{ height: 34, paddingLeft: 12, paddingRight: 12, fontSize: 14 }}
             >
               {t.mobileCta}

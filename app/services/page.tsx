@@ -443,7 +443,7 @@ export default function ServicesPage() {
           <div className="flex items-center justify-center w-full" style={{ marginTop: 32 }}>
             <Link
               href="/contact"
-              className="inline-block bg-brand text-text-on-dark font-body font-bold rounded-xs drop-shadow-[4px_8px_5px_rgba(0,0,0,0.25)] hover:opacity-90 transition-opacity duration-150"
+              className="inline-block bg-brand text-text-on-dark font-body font-bold rounded-xs shadow-[4px_8px_5px_rgba(0,0,0,0.25)] hover:opacity-90 transition-opacity duration-150"
               style={{ fontSize: 18, padding: "12px 28px" }}
             >
               {t.packages.cta}
