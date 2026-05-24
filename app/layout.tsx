@@ -19,22 +19,22 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Pine Counseling — Academic Curator",
+  title: "Pine College Counseling — Academic Curator",
   description:
-    "Pine Counseling guides Turkish high school students at every step of studying abroad. Expert-accompanied journey to the world's best universities.",
+    "Pine College Counseling guides high school students at every step of studying abroad. Expert-accompanied journey to the world's best universities.",
   keywords: [
     "university admissions",
     "international university consulting",
-    "Turkey study abroad",
+    "study abroad",
     "Ivy League",
     "Russell Group",
     "Coimbra Group",
     "university counseling",
   ],
   openGraph: {
-    title: "Pine Counseling — Academic Curator",
+    title: "Pine College Counseling — Academic Curator",
     description:
-      "Expert guidance for Turkish high school students pursuing international university admissions.",
+      "Expert guidance for high school students pursuing international university admissions.",
     type: "website",
     locale: "en_US",
   },
