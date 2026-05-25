@@ -19,6 +19,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.pinecounseling.com"),
   title: "Pine College Counseling — Academic Curator",
   description:
     "Pine College Counseling guides high school students at every step of studying abroad. Expert-accompanied journey to the world's best universities.",
