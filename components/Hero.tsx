@@ -33,7 +33,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-end lg:items-center px-6 lg:px-40 pb-10 lg:pb-0 pt-6 lg:pt-0">
+      <div className="relative z-10 h-full flex items-end lg:items-center px-6 lg:px-40 pb-10 lg:pb-0 pt-6 lg:pt-[72px]">
         <div style={{ maxWidth: 1120, width: "100%", marginLeft: "auto", marginRight: "auto" }}>
           <div className="flex flex-col gap-[16px] lg:gap-[24px] items-start">
             <motion.h1
