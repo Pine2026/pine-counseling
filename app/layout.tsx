@@ -37,6 +37,14 @@ export const metadata: Metadata = {
       "Expert guidance for high school students pursuing international university admissions.",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/images/logo.jpg",
+        width: 1200,
+        height: 1200,
+        alt: "Pine College Counseling",
+      },
+    ],
   },
 };
 
