@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://pinecounseling.com/images/logo.jpg",
+        url: "/images/cover-large.jpg",
         width: 1200,
-        height: 1200,
+        height: 630,
         alt: "Pine College Counseling",
       },
     ],
