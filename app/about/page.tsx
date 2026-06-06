@@ -13,8 +13,8 @@ import { translations } from "@/lib/i18n";
 const ABOUT_HERO         = "/images/about-hero-desktop-v4.jpg";
 const ABOUT_HERO_MOBILE  = "/images/about-hero-mobile-v4.jpg";
 const BG_PATTERN         = "/images/bg-pattern.png";
-const TEAM_IMAGE         = "/images/team-desktop-v4.jpg";
-const TEAM_IMAGE_MOBILE  = "/images/team-mobile-v4.jpg";
+const TEAM_IMAGE         = "/images/M_OurTeam2.jpg";
+const TEAM_IMAGE_MOBILE  = "/images/M_OurTeam2.jpg";
 const CTA_PATTERN = "/images/cta-pattern.png";
 
 export default function AboutPage() {
