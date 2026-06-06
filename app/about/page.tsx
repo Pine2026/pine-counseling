@@ -145,7 +145,7 @@ export default function AboutPage() {
             className="shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col lg:flex-row items-stretch w-full"
           >
             {/* Photo */}
-            <div className="bg-bg-secondary border-[1.5px] border-border-strong rounded-t-md lg:rounded-tl-md lg:rounded-tr-none lg:rounded-bl-md lg:rounded-br-none overflow-hidden flex-shrink-0 relative h-[220px] lg:h-auto lg:w-[306px]">
+            <div className="bg-bg-secondary border-[1.5px] border-border-strong rounded-t-md lg:rounded-tl-md lg:rounded-tr-none lg:rounded-bl-md lg:rounded-br-none overflow-hidden flex-shrink-0 relative aspect-[16/9] lg:aspect-auto lg:h-auto lg:w-[306px]">
               <picture>
                 <source media="(min-width: 768px)" srcSet={TEAM_IMAGE} />
                 <img

@@ -77,8 +77,8 @@ export default function Ecosystem() {
           {t.description}
         </p>
 
-        {/* Mobile cards — 2-col, icon + title only */}
-        <div className="flex flex-wrap gap-[8px] lg:hidden">
+        {/* Mobile cards — 2-col on phone, 3-col on tablet */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-[8px] lg:hidden">
           {cards.map((card, i) => (
             <motion.div
               key={i}
@@ -87,7 +87,7 @@ export default function Ecosystem() {
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.55, delay: i * 0.1, ease: [0.22, 1, 0.36, 1] }}
               className="bg-bg-secondary border-[1.5px] border-border-strong rounded-md shadow-[4px_8px_5px_rgba(0,0,0,0.25)] flex flex-col gap-[8px]"
-              style={{ width: "calc(50% - 4px)", padding: 12 }}
+              style={{ padding: 12 }}
             >
               <span style={{ alignSelf: "flex-start", display: "inline-flex", flexShrink: 0 }}>
                 {card.icon}
